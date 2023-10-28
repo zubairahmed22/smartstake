@@ -197,6 +197,10 @@ body {
   color: #185ca2;
 }
 
+.social__link:hover {
+  background-color: #16569d;
+  color: #02121D;
+}
 .roadmap__item2 {
   background-color: #f5f9fc;
   border-radius: 4px;
