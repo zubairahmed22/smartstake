@@ -82,13 +82,12 @@ const RoadmapSection = () => {
                         <div className="roadmap__item2-inner">
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
-                                    <h4>Stacking Program</h4>
+                                    <h4>Fair Funds Allocations</h4>
                                     <p>05</p>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, accusant ium!
-                                    Dolores maxime numquam animi saepe sapiente tempora, veritatis velit delectus
-                                    debitis provident dolore alias reiciendis cupiditate facere aliquid iusto
-                                    inventore!</p>
+                                <p>To kick start our journey, we will strategically allocate 70% of the
+funds to the launch, fortify trading with 60% dedicated to liquidity, and set aside 40% to
+spearhead impactful marketing campaigns.</p>
                             </div>
                         </div>
                     </div>
@@ -98,13 +97,11 @@ const RoadmapSection = () => {
                         <div className="roadmap__item2-inner">
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
-                                    <h4>Multichain Launchpad</h4>
+                                    <h4>Token Launch</h4>
                                     <p>06</p>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, accusant ium!
-                                    Dolores maxime numquam animi saepe sapiente tempora, veritatis velit delectus
-                                    debitis provident dolore alias reiciendis cupiditate facere aliquid iusto
-                                    inventore!</p>
+                                <p>The official token launch will open the gates for trading and staking, enabling
+users to fully interact with the $MART ecosystem</p>
                             </div>
                         </div>
 
