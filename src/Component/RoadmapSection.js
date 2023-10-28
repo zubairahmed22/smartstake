@@ -19,13 +19,13 @@ const RoadmapSection = () => {
                         <div className="roadmap__item2-inner">
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
-                                    <h4>Launchpad Initialized</h4>
+                                    <h4>Website Development</h4>
                                     <p>01</p>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, accusant ium!
-                                    Dolores maxime numquam animi saepe sapiente tempora, veritatis velit delectus
-                                    debitis provident dolore alias reiciendis cupiditate facere aliquid iusto
-                                    inventore!</p>
+                                <p>The majority of people will first interact with Smart Staking via our social media channels and website. Our primary
+                                     objective is to create an interactive, usercentric platform 
+                                     that offers comprehensive insights into the project. This digital space will provide 
+                                     necessary information while encouraging community interaction and feedback.</p>
                             </div>
                         </div>
 
@@ -36,13 +36,12 @@ const RoadmapSection = () => {
                         <div className="roadmap__item2-inner">
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
-                                    <h4>Website Creation</h4>
+                                    <h4>Social Media Engagement</h4>
                                     <p>02</p>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, accusant ium!
-                                    Dolores maxime numquam animi saepe sapiente tempora, veritatis velit delectus
-                                    debitis provident dolore alias reiciendis cupiditate facere aliquid iusto
-                                    inventore!</p>
+                                <p>The crypto world thrives on community. We aim to carve out a strong and engaging digital footprint across various
+                                     platforms like Twitter, Telegram, and Discord. Regular updates, interactive sessions,
+                                     and transparent communications will build trust and foster a cohesive $MART community.</p>
                             </div>
                         </div>
 
@@ -53,13 +52,12 @@ const RoadmapSection = () => {
                         <div className="roadmap__item2-inner">
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
-                                    <h4>Seed Sale</h4>
+                                    <h4>Fair Launch on Pink Sale</h4>
                                     <p>03</p>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, accusant ium!
-                                    Dolores maxime numquam animi saepe sapiente tempora, veritatis velit delectus
-                                    debitis provident dolore alias reiciendis cupiditate facere aliquid iusto
-                                    inventore!</p>
+                                <p>Transparency is key. Our initial token distribution via Pink Sale or similar platforms will be designed 
+                                    to ensure every participant gets a fair opportunity,
+                                     laying the foundation for a decentralized and inclusive community.</p>
                             </div>
                         </div>
                     </div>
@@ -69,13 +67,11 @@ const RoadmapSection = () => {
                         <div className="roadmap__item2-inner">
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
-                                    <h4>Torkgo Farming</h4>
+                                    <h4>Smart Contract Development</h4>
                                     <p>04</p>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, accusant ium!
-                                    Dolores maxime numquam animi saepe sapiente tempora, veritatis velit delectus
-                                    debitis provident dolore alias reiciendis cupiditate facere aliquid iusto
-                                    inventore!</p>
+                                <p>The backbone of any crypto project. Our focus is on developing a robust, secure, and functional token smart contract,
+                                     rigorously tested to prevent vulnerabilities and ensure seamless transactions.</p>
                             </div>
                         </div>
 
