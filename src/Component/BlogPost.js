@@ -102,36 +102,29 @@ finance's stability with crypto's innovation.</p>
                                     <h5>Post Categories</h5>
                                 </div>
                                 <ul className="lab-ul widget-wrapper list-bg-none">
+                                   
                                     <li>
-                                        <a href="#" className="d-flex flex-wrap justify-content-between"><span>
-                                                <i className="fa-solid fa-folder"></i> Show
-                                                all</span><span>15</span></a>
+                                        <a href="#" className="d-flex flex-wrap justify-content-between"><span><i
+                                                    className="fa-solid fa-folder"></i>Marketing</span><span>2%</span></a>
                                     </li>
                                     <li>
                                         <a href="#" className="d-flex flex-wrap justify-content-between"><span><i
-                                                    className="fa-solid fa-folder"></i>IGO</span><span>20</span></a>
+                                                    className="fa-solid fa-folder"></i> Liquidity Addition</span><span>1%</span></a>
                                     </li>
                                     <li>
                                         <a href="#" className="d-flex flex-wrap justify-content-between"><span><i
-                                                    className="fa-solid fa-folder"></i>Metaverse</span><span>65</span></a>
+                                                    className="fa-solid fa-folder"></i>Token Burn
+                                                1%</span><span>32</span></a>
                                     </li>
                                     <li>
                                         <a href="#" className="d-flex flex-wrap justify-content-between"><span><i
-                                                    className="fa-solid fa-folder"></i>Web
-                                                3.0</span><span>32</span></a>
+                                                    className="fa-solid fa-folder"></i>Project Development</span><span>2%</span></a>
                                     </li>
                                     <li>
                                         <a href="#" className="d-flex flex-wrap justify-content-between"><span><i
-                                                    className="fa-solid fa-folder"></i>IDO</span><span>16</span></a>
+                                                    className="fa-solid fa-folder"></i>Redistribution in BUSD</span><span>4%</span></a>
                                     </li>
-                                    <li>
-                                        <a href="#" className="d-flex flex-wrap justify-content-between"><span><i
-                                                    className="fa-solid fa-folder"></i>Token</span><span>70</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="d-flex flex-wrap justify-content-between"><span><i
-                                                    className="fa-solid fa-folder"></i>Binance</span><span>26</span></a>
-                                    </li>
+                                   
                                 </ul>
                             </div>
 
@@ -150,9 +143,9 @@ finance's stability with crypto's innovation.</p>
                                         </div>
                                         <div className="post-content">
                                             <a href="blog-single.html">
-                                                <h6>Launch Your IDO Project Now</h6>
+                                                <h6>Extend Liquidity Lock</h6>
                                             </a>
-                                            <p>02 January 2022</p>
+                                            <p>02 January 2023</p>
                                         </div>
                                     </li>
                                     <li className="widget-post-item">
@@ -162,9 +155,9 @@ finance's stability with crypto's innovation.</p>
                                         </div>
                                         <div className="post-content">
                                             <a href="blog-single.html">
-                                                <h6>Best IDO Launchpad HTML template</h6>
+                                                <h6>Community Growth</h6>
                                             </a>
-                                            <p>21 February 2022</p>
+                                            <p>21 February 2023</p>
                                         </div>
                                     </li>
                                     <li className="widget-post-item">
@@ -174,23 +167,12 @@ finance's stability with crypto's innovation.</p>
                                         </div>
                                         <div className="post-content">
                                             <a href="blog-single.html">
-                                                <h6>Who are eligible to launch project?</h6>
+                                                <h6>Full-Scale Marketing</h6>
                                             </a>
-                                            <p>30 Sep 2022</p>
+                                            <p>30 Sep 2023</p>
                                         </div>
                                     </li>
-                                    <li className="widget-post-item">
-                                        <div className="post-thumb">
-                                            <a href="blog-single.html"><img src="assets/images/blog/p-post/04.jpg"
-                                                    alt="product"/></a>
-                                        </div>
-                                        <div className="post-content">
-                                            <a href="blog-single.html">
-                                                <h6>What is the Token allocation in Torkgo</h6>
-                                            </a>
-                                            <p>05 March 2022</p>
-                                        </div>
-                                    </li>
+                                  
                                 </ul>
                             </div>
 

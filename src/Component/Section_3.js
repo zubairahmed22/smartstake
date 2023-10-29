@@ -140,7 +140,7 @@ const Section_3 = () => {
                 </div>
                 {/* project raised ammount */}
                 <div className="project__item-amount">
-                  <p>Raised Ammount</p>
+                 
                   <h6><span className="color--theme-color">7,000,000</span> / <span>tokens (70%)
                       </span>
                   </h6>

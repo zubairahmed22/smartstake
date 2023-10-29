@@ -267,9 +267,9 @@ const tokenCard = () => {
                                             </ul>
 
                                             <div className="project__item-amount">
-                                                <p>Raised Ammount</p>
+                                               
                                                 <h6><span className="color--theme-color">5000</span> / <span>15000
-                                                        BUSD</span>
+                                                        </span>
                                                 </h6>
                                                 <div className="progress">
                                                 {/* <div className="progress-bar" role="progressbar" style={{width: '25%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100}></div>
