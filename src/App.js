@@ -1,12 +1,12 @@
-import BannerSection from "./Component/BannerSection";
-import CardSection from "./Component/CardSection";
-import ProjectSection from "./Component/ProjectSection";
-import RoadmapSection from "./Component/RoadmapSection";
-import Section_3 from "./Component/Section_3";
+
+import BlogPost from "./Component/BlogPost";
+import Home from "./Home";
 import HeaderComponent from "./Component/header";
 import FooterSection from "./FooterSection";
-
-
+import Contact from "./Component/Contact";
+import { Routes, Route} from "react-router-dom"
+import Team from "./Component/Team";
+import Staking from "./Staking";
 
 
 function App() {
@@ -23,12 +23,15 @@ function App() {
         
       </div> */}
       <HeaderComponent/>
-      <BannerSection/>
-      {/* <ProjectSection/> */}
-      <CardSection/>
-      {/* <TokenCard/> */}
-      <Section_3/>
-      <RoadmapSection/>
+       
+      <Routes>
+      <Route path="/" element={<Home/>}/>
+        
+        <Route  path="BlogPost" element={<BlogPost/>}/>
+        <Route path="Contact" element={<Contact/> }/>  
+        <Route path="Team" element={<Team/>} />  
+        <Route path="Staking" element={<Staking/>}/>
+      </Routes>
       <FooterSection/>
     </div>
   );
