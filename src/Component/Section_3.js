@@ -19,7 +19,7 @@ const Section_3 = () => {
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">
-                  <div className="project__item2-thumb"><img src="assets/images/igo/author/1.png" alt="Project Image" />
+                  <div className="project__item2-thumb"><img src="assets/images/igo/author/6.png" alt="Project Image" />
                   </div>
                   <div className="project__item2-content">
                     <h4><a href="project-details.html" className="stretched-link">Allocation</a>
@@ -28,9 +28,9 @@ const Section_3 = () => {
                   </div>
                 </div>
                 {/* projct chain */}
-                <div className="project__item2-chain">
+                {/* <div className="project__item2-chain">
                   <img src="assets/images/chain/binance.png" alt="chain icon" />
-                </div>
+                </div> */}
                 {/* project launching time */}
                 <div className="project__item2-time">
                 
@@ -63,9 +63,9 @@ const Section_3 = () => {
                   </div>
                 </div>
                 {/* projct chain */}
-                <div className="project__item2-chain">
+                {/* <div className="project__item2-chain">
                   <img src="assets/images/chain/solana.png" alt="chain icon" />
-                </div>
+                </div> */}
                 {/* project launching time */}
                 <div className="project__item2-time">
                  
@@ -88,7 +88,7 @@ const Section_3 = () => {
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">
-                  <div className="project__item2-thumb"><img src="assets/images/igo/author/3.png" alt="Project Image" />
+                  <div className="project__item2-thumb"><img src="assets/images/igo/author/6.png" alt="Project Image" />
                   </div>
                   <div className="project__item2-content">
                     <h4><a href="project-details.html" className="stretched-link">Product Development</a>
@@ -97,9 +97,9 @@ const Section_3 = () => {
                   </div>
                 </div>
                 {/* projct chain */}
-                <div className="project__item2-chain">
+                {/* <div className="project__item2-chain">
                   <img src="assets/images/chain/eth.png" alt="chain icon" />
-                </div>
+                </div> */}
                 {/* project launching time */}
                 <div className="project__item2-time">
                   
@@ -122,7 +122,7 @@ const Section_3 = () => {
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">
-                  <div className="project__item2-thumb"><img src="assets/images/igo/author/4.png" alt="Project Image" />
+                  <div className="project__item2-thumb"><img src="assets/images/igo/author/6.png" alt="Project Image" />
                   </div>
                   <div className="project__item2-content">
                     <h4><a href="project-details.html" className="stretched-link">Fair Launch</a>
@@ -131,9 +131,9 @@ const Section_3 = () => {
                   </div>
                 </div>
                 {/* projct chain */}
-                <div className="project__item2-chain">
+                {/* <div className="project__item2-chain">
                   <img src="assets/images/chain/aval.png" alt="chain icon" />
-                </div>
+                </div> */}
                 {/* project launching time */}
                 <div className="project__item2-time">
                  
@@ -156,7 +156,7 @@ const Section_3 = () => {
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">
-                  <div className="project__item2-thumb"><img src="assets/images/igo/author/5.png" alt="Project Image" />
+                  <div className="project__item2-thumb"><img src="assets/images/igo/author/6.png" alt="Project Image" />
                   </div>
                   <div className="project__item2-content">
                     <h4><a href="project-details.html" className="stretched-link">Team</a>
@@ -165,9 +165,9 @@ const Section_3 = () => {
                   </div>
                 </div>
                 {/* projct chain */}
-                <div className="project__item2-chain">
+                {/* <div className="project__item2-chain">
                   <img src="assets/images/chain/metic.png" alt="chain icon" />
-                </div>
+                </div> */}
                 {/* project launching time */}
                 <div className="project__item2-time">
                  

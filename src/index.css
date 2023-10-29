@@ -230,6 +230,41 @@ button.default-btn {
   background: transparent;
   box-shadow: 0 0 10px rgb(22 87 158);
 }
+
+p.phargraph {
+  text-align: justify;
+  color: #373434;
+}
+section.cta.padding-bottom {
+  background-color: #145096;
+}
+.cta__wrapper {
+  margin: auto;
+  background-color: #f5f9fc;
+  border-radius: 15px;
+  padding-inline: 15px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-left: 3px solid #f5f9fc;
+  border-right: 3px solid #f5f9fc;
+  padding-block: 50px;
+}
+
+.section-header__subtitle {
+  font-size: calc(1.275rem + 0.3vw);
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #145096;
+  font-family: "Rajdhani", sans-serif;
+}
+
+
+
+h2.section__header__title {
+  color: #145096;
+}
 .widget.widget-post ul.widget-wrapper li .post-content h6:hover, .widget.recent-product ul.widget-wrapper li .post-content h6:hover {
   color: #16579e;
 }
