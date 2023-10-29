@@ -33,11 +33,11 @@ const Section_3 = () => {
                 </div>
                 {/* project launching time */}
                 <div className="project__item2-time">
-                  <p>2 Days Ago</p>
+                
                 </div>
                 {/* project raised ammount */}
                 <div className="project__item-amount">
-                  <p>Raised Ammount</p>
+                 
                    
                   <h6><span className="color--theme-color">1,500,000</span> / <span> tokens (15%)
                       </span>
@@ -68,11 +68,11 @@ const Section_3 = () => {
                 </div>
                 {/* project launching time */}
                 <div className="project__item2-time">
-                  <p>3 Days Ago</p>
+                 
                 </div>
                 {/* project raised ammount */}
                 <div className="project__item-amount">
-                  <p>Raised Ammount</p>
+                 
                   <h6><span className="color--theme-color">500,000</span> / <span>tokens (5%)
                       </span>
                   </h6>
@@ -102,11 +102,11 @@ const Section_3 = () => {
                 </div>
                 {/* project launching time */}
                 <div className="project__item2-time">
-                  <p>4 Days Ago</p>
+                  
                 </div>
                 {/* project raised ammount */}
                 <div className="project__item-amount">
-                  <p>Raised Ammount</p>
+                  
                   <h6><span className="color--theme-color">500,000</span> / <span>tokens (5%)
                       </span>
                   </h6>
@@ -136,13 +136,13 @@ const Section_3 = () => {
                 </div>
                 {/* project launching time */}
                 <div className="project__item2-time">
-                  <p>5 Days Ago</p>
+                 
                 </div>
                 {/* project raised ammount */}
                 <div className="project__item-amount">
                   <p>Raised Ammount</p>
                   <h6><span className="color--theme-color">7,000,000</span> / <span>tokens (70%)
-                      BUSD</span>
+                      </span>
                   </h6>
                   <div className="progress">
                     <div className="progress-bar" role="progressbar" style={{width: '50%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
@@ -170,13 +170,13 @@ const Section_3 = () => {
                 </div>
                 {/* project launching time */}
                 <div className="project__item2-time">
-                  <p>1 Week Ago</p>
+                 
                 </div>
                 {/* project raised ammount */}
                 <div className="project__item-amount">
-                  <p>Raised Ammount</p>
+                  
                   <h6><span className="color--theme-color">500,000</span> / <span>tokens (5%)
-                      BUSD</span>
+                    </span>
                   </h6>
                   <div className="progress">
                     <div className="progress-bar" role="progressbar" style={{width: '65%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
