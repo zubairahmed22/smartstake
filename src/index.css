@@ -231,6 +231,16 @@ button.default-btn {
   box-shadow: 0 0 10px rgb(22 87 158);
 }
 
+.contact .form .default-btn:hover {
+  border: none;
+  color: #16579e;
+  box-shadow: 0 0 10px rgb(249, 250, 250);
+}
+.contact .form .default-btn {
+  border: none;
+  background-color: white;
+  color: #2b2a2a;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Rajdhani", sans-serif;
   color: #feffff;
