@@ -19,19 +19,15 @@ const Section_3 = () => {
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">
-                  <div className="project__item2-thumb"><img src="assets/images/igo/author/6.png" alt="Project Image" />
+                  <div className="project__item2-thumb"><img src="assets/images/igo/author/token.png" alt="Project Image" />
                   </div>
                   <div className="project__item2-content">
-                    <h4><a href="project-details.html" className="stretched-link">Allocation</a>
+                    <h4>Allocation
                     </h4>
                     <p>For incentivizing staking and liquidity provision</p>
                   </div>
                 </div>
-                {/* projct chain */}
-                {/* <div className="project__item2-chain">
-                  <img src="assets/images/chain/binance.png" alt="chain icon" />
-                </div> */}
-                {/* project launching time */}
+               
                 <div className="project__item2-time">
                 
                 </div>
@@ -54,19 +50,15 @@ const Section_3 = () => {
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">
-                  <div className="project__item2-thumb"><img src="assets/images/igo/author/6.png" alt="Project Image" />
+                  <div className="project__item2-thumb"><img src="assets/images/igo/author/token.png" alt="Project Image" />
                   </div>
                   <div className="project__item2-content">
-                    <h4><a href="project-details.html" className="stretched-link">Marketing & Community Engagement</a>
+                    <h4> Marketing & Community Engagement
                     </h4>
                     <p>Fund’s marketing campaigns, partnerships, events, etc</p>
                   </div>
                 </div>
-                {/* projct chain */}
-                {/* <div className="project__item2-chain">
-                  <img src="assets/images/chain/solana.png" alt="chain icon" />
-                </div> */}
-                {/* project launching time */}
+              
                 <div className="project__item2-time">
                  
                 </div>
@@ -88,19 +80,15 @@ const Section_3 = () => {
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">
-                  <div className="project__item2-thumb"><img src="assets/images/igo/author/6.png" alt="Project Image" />
+                  <div className="project__item2-thumb"><img src="assets/images/igo/author/token.png" alt="Project Image" />
                   </div>
                   <div className="project__item2-content">
-                    <h4><a href="project-details.html" className="stretched-link">Product Development</a>
+                    <h4>Product Development
                     </h4>
                     <p>Supports ongoing development, enhancements, and security</p>
                   </div>
                 </div>
-                {/* projct chain */}
-                {/* <div className="project__item2-chain">
-                  <img src="assets/images/chain/eth.png" alt="chain icon" />
-                </div> */}
-                {/* project launching time */}
+               
                 <div className="project__item2-time">
                   
                 </div>
@@ -122,23 +110,19 @@ const Section_3 = () => {
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">
-                  <div className="project__item2-thumb"><img src="assets/images/igo/author/6.png" alt="Project Image" />
+                  <div className="project__item2-thumb"><img src="assets/images/igo/author/token.png" alt="Project Image" />
                   </div>
                   <div className="project__item2-content">
-                    <h4><a href="project-details.html" className="stretched-link">Fair Launch</a>
+                    <h4>Fair Launch
                     </h4>
                     <p>Facilitates a decentralized distribution during the public launch</p>
                   </div>
                 </div>
-                {/* projct chain */}
-                {/* <div className="project__item2-chain">
-                  <img src="assets/images/chain/aval.png" alt="chain icon" />
-                </div> */}
-                {/* project launching time */}
+              
                 <div className="project__item2-time">
                  
                 </div>
-                {/* project raised ammount */}
+                
                 <div className="project__item-amount">
                  
                   <h6><span className="color--theme-color">7,000,000</span> / <span>tokens (70%)
@@ -156,19 +140,15 @@ const Section_3 = () => {
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">
-                  <div className="project__item2-thumb"><img src="assets/images/igo/author/6.png" alt="Project Image" />
+                  <div className="project__item2-thumb"><img src="assets/images/igo/author/token.png" alt="Project Image" />
                   </div>
                   <div className="project__item2-content">
-                    <h4><a href="project-details.html" className="stretched-link">Team</a>
+                    <h4>Team
                     </h4>
                     <p>Rewards the core team for their invaluable contributions</p>
                   </div>
                 </div>
-                {/* projct chain */}
-                {/* <div className="project__item2-chain">
-                  <img src="assets/images/chain/metic.png" alt="chain icon" />
-                </div> */}
-                {/* project launching time */}
+               
                 <div className="project__item2-time">
                  
                 </div>
@@ -186,9 +166,7 @@ const Section_3 = () => {
             </div>
           </div>
         </div>
-        <div className="text-center mt-5 aos-init">
-          <a href="project.html" className="default-btn"><span>View More</span></a>
-        </div>
+        
       </div>
     </div>
   </section>

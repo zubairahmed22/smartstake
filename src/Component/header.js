@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom"
+import AuditPdf from "./AUDIT.pdf"
+import whitePaper from "./Whitepaper.pdf"
 const HeaderComponent = () => {
     return (
       <header className="header-section">
@@ -22,20 +24,27 @@ const HeaderComponent = () => {
                                      <Link to={'/'} >Home</Link>
                                       
                                   </li>
+                                  
+                                  <li>
+                                      <Link to={'Staking'}>Stacking</Link>
+                                     
+                                  </li>
+                                  <li>
+                                      <Link to={'BuyToken'}>Buy Token</Link>
+                                     
+                                  </li>
                                   <li>
                                      <Link to={'Team'}> Team</Link>
                                       
                                   </li>
                                   <li>
-                                      <Link to={'Staking'}>Stacking</Link>
-                                     
-                                  </li>
-                                 
-                                  <li>
                                   <Link to={'BlogPost'}>Blog</Link>    
                                       
                                   </li>
                                   <li> <Link to={'Contact'}> Contact</Link></li>
+                                  <li> <a  href={AuditPdf} target= "_blank" onClick={window.open(AuditPdf)}>Audit</a></li>
+                                  <li> <a  href={whitePaper} target= "_blank" onClick={window.open(whitePaper)}> whitepaper</a></li>
+
                               </ul>
                               <a className="wallet-btn" href="#" data-bs-toggle="modal" data-bs-target="#wallet-option">
                                   <span>Connect

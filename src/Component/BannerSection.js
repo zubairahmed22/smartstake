@@ -18,12 +18,7 @@ financial constraints </p>
                         <div className="banner__thumb" >
                             <img src="assets/images/banner/banner-thumb/rocket.png" alt="banner Image"/>
 
-                            {/* <div className="shape-2">
-                                <img src="assets/images/banner/banner-thumb/shape3.png" alt="Banner Shape"/>
-                            </div> */}
-                            {/* <div className="shape-3">
-                                <img src="assets/images/banner/banner-thumb/shape1.png" alt="Banner Shape"/>
-                            </div> */}
+                            
                         </div>
                     </div>
                 </div>

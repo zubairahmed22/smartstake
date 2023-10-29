@@ -9,9 +9,9 @@ import Disclaimer from './Component/Disclaimer';
 const Home = () => {
   return (
     <div> <BannerSection/>
-    {/* <ProjectSection/> */}
+   
     <CardSection/>
-    {/* <TokenCard/> */}
+   
     <Section_3/>
     <RoadmapSection/>
     <Disclaimer/>

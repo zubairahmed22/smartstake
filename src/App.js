@@ -7,6 +7,7 @@ import Contact from "./Component/Contact";
 import { Routes, Route} from "react-router-dom"
 import Team from "./Component/Team";
 import Staking from "./Staking";
+import BuyToken from "./Component/BuyToken";
 
 
 function App() {
@@ -31,6 +32,8 @@ function App() {
         <Route path="Contact" element={<Contact/> }/>  
         <Route path="Team" element={<Team/>} />  
         <Route path="Staking" element={<Staking/>}/>
+        <Route path="BuyToken" element={<BuyToken/>}/>
+        
       </Routes>
       <FooterSection/>
     </div>
