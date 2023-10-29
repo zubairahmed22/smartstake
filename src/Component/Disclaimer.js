@@ -8,7 +8,7 @@ const Disclaimer = () => {
             <div className="cta__content">
                 
                 <h2 className="section__header__title"> Disclaimer</h2>
-                <p className="section-header__subtitle"> High Risk Investment</p>
+                <p className="section-header__subtitle" id='HighRisk'> High Risk Investment</p>
                 <p className='phargraph'>
                 Trading cryptocurrencies carries a high level of risk and may not be suitable for all investors.
 Before deciding to trade cryptocurrency, you should carefully consider your investment

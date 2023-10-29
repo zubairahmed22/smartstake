@@ -252,11 +252,11 @@ section.cta.padding-bottom {
   padding-block: 50px;
 }
 
-p.section-header__subtitle {
+
+
+p#HighRisk {
   color: #145096;
 }
-
-
 
 .cta__content h2, .widget.widget-brochure .widget-brochure__thumb, .pro-details__desc-content section h4 {
   margin-bottom: 25px;
