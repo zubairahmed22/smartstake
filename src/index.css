@@ -252,17 +252,14 @@ section.cta.padding-bottom {
   padding-block: 50px;
 }
 
-.section-header__subtitle {
-  font-size: calc(1.275rem + 0.3vw);
-  text-transform: capitalize;
-  font-weight: 600;
+p.section-header__subtitle {
   color: #145096;
-  font-family: "Rajdhani", sans-serif;
 }
 
 
 
-h2.section__header__title {
+.cta__content h2, .widget.widget-brochure .widget-brochure__thumb, .pro-details__desc-content section h4 {
+  margin-bottom: 25px;
   color: #145096;
 }
 .widget.widget-post ul.widget-wrapper li .post-content h6:hover, .widget.recent-product ul.widget-wrapper li .post-content h6:hover {
