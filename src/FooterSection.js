@@ -6,7 +6,7 @@ const FooterSection = () => {
         <div className="footer__wrapper padding-top padding-bottom">
             <div className="container">
                 <div className="footer__content text-center">
-                    <a className="mb-4 d-inline-block" href="index.html"><img src="assets/images/logo/smartstake_logo.png"
+                    <a className="mb-4 d-inline-block" href="index.html"><img src="assets/images/logo/smartLogo.png"
                             alt="Logo"/></a>
                     <ul className="social justify-content-center">
                         <li className="social__item">

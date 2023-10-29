@@ -8,13 +8,13 @@ const HeaderComponent = () => {
                       <div className="brand-logo d-none d-lg-inline-block">
                           <div className="logo">
                               <a href="index.html">
-                              <img src="/assets/images/logo/smartstake_logo.png" alt="logo" />
+                              <img src="/assets/images/logo/smartLogo.png" alt="logo" />
                               </a>
                           </div>
                       </div>
                       <div className="header-wrapper justify-content-lg-end">
                           <div className="mobile-logo d-lg-none">
-                              <a href="index.html"><img src="/assets/images/logo/smartstake_logo.png" alt="logo" /></a>
+                              <a href="index.html"><img src="/assets/images/logo/smartLogo.png" alt="logo" /></a>
                           </div>
                           <div className="menu-area">
                               <ul className="menu">
