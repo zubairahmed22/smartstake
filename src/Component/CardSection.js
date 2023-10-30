@@ -91,9 +91,7 @@ This allocation fuels marketing initiatives, brand partnerships, and outreach ef
                     </div>
 
                 </div>
-                <div className="text-center mt-5">
-                    <a href="kyc.html" className="default-btn"><span>Varify KYC</span></a>
-                </div>
+               
             </div>
         </div>
     </section>
