@@ -19,7 +19,7 @@ const Section_3 = () => {
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">
-                  <div className="project__item2-thumb"><img src="assets/images/igo/author/token.png" alt="Project Image" />
+                  <div className="project__item2-thumb"><img src="assets/images/igo/author/allocation.png" alt="Project Image" />
                   </div>
                   <div className="project__item2-content">
                     <h4>Allocation
@@ -39,7 +39,7 @@ const Section_3 = () => {
                       </span>
                   </h6>
                   <div className="progress">
-                    <div className="progress-bar" role="progressbar" style={{width: '25%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                    <div className="progress-bar" role="progressbar" style={{width: '15%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
                   </div>
                 </div>
               </div>
@@ -50,7 +50,7 @@ const Section_3 = () => {
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">
-                  <div className="project__item2-thumb"><img src="assets/images/igo/author/token.png" alt="Project Image" />
+                  <div className="project__item2-thumb"><img src="assets/images/igo/author/community_eng.png" alt="Project Image" />
                   </div>
                   <div className="project__item2-content">
                     <h4> Marketing & Community Engagement
@@ -69,7 +69,7 @@ const Section_3 = () => {
                       </span>
                   </h6>
                   <div className="progress">
-                    <div className="progress-bar" role="progressbar" style={{width: '90%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                    <div className="progress-bar" role="progressbar" style={{width: '5%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
                   </div>
                 </div>
               </div>
@@ -80,7 +80,7 @@ const Section_3 = () => {
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">
-                  <div className="project__item2-thumb"><img src="assets/images/igo/author/token.png" alt="Project Image" />
+                  <div className="project__item2-thumb"><img src="assets/images/igo/author/product_dev.png" alt="Project Image" />
                   </div>
                   <div className="project__item2-content">
                     <h4>Product Development
@@ -99,7 +99,7 @@ const Section_3 = () => {
                       </span>
                   </h6>
                   <div className="progress">
-                    <div className="progress-bar" role="progressbar" style={{width: '90%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                    <div className="progress-bar" role="progressbar" style={{width: '5%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
                   </div>
                 </div>
               </div>
@@ -110,7 +110,7 @@ const Section_3 = () => {
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">
-                  <div className="project__item2-thumb"><img src="assets/images/igo/author/token.png" alt="Project Image" />
+                  <div className="project__item2-thumb"><img src="assets/images/igo/author/fair_luanch.png" alt="Project Image" />
                   </div>
                   <div className="project__item2-content">
                     <h4>Fair Launch
@@ -129,7 +129,7 @@ const Section_3 = () => {
                       </span>
                   </h6>
                   <div className="progress">
-                    <div className="progress-bar" role="progressbar" style={{width: '50%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                    <div className="progress-bar" role="progressbar" style={{width: '70%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
                   </div>
                 </div>
               </div>
@@ -140,7 +140,7 @@ const Section_3 = () => {
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">
-                  <div className="project__item2-thumb"><img src="assets/images/igo/author/token.png" alt="Project Image" />
+                  <div className="project__item2-thumb"><img src="assets/images/igo/author/team.png" alt="Project Image" />
                   </div>
                   <div className="project__item2-content">
                     <h4>Team
@@ -159,7 +159,7 @@ const Section_3 = () => {
                     </span>
                   </h6>
                   <div className="progress">
-                    <div className="progress-bar" role="progressbar" style={{width: '65%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                    <div className="progress-bar" role="progressbar" style={{width: '5%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
                   </div>
                 </div>
               </div>

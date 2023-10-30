@@ -114,7 +114,7 @@ finance's stability with crypto's innovation.</p>
                                     <li>
                                         <a href="#" className="d-flex flex-wrap justify-content-between"><span><i
                                                     className="fa-solid fa-folder"></i>Token Burn
-                                                1%</span><span>32</span></a>
+                                              </span><span>1%</span></a>
                                     </li>
                                     <li>
                                         <a href="#" className="d-flex flex-wrap justify-content-between"><span><i

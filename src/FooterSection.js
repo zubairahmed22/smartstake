@@ -10,23 +10,19 @@ const FooterSection = () => {
                             alt="Logo"/></a>
                     <ul className="social justify-content-center">
                         <li className="social__item">
-                            <a href="#" className="social__link"><i className="fab fa-twitter"></i></a>
+                            <a href="https://twitter.com/Smart_Staking" target='_blank' className="social__link"><i className="fab fa-twitter"></i></a>
+                        </li>
+                        
+                        <li className="social__item">
+                            <a href=" https://t.me/Smartstaking24" target='_blank' className="social__link"><i className="fab fa-telegram"></i></a>
                         </li>
                         <li className="social__item">
-                            <a href="#" className="social__link"><i className="fab fa-discord"></i></a>
+                            <a href="https://www.instagram.com/smartstaking/?igshid=NzZlODBkYWE4Ng%3D%3D" target='_blank' className="social__link"><i className="fab fa-instagram"></i></a>
                         </li>
                         <li className="social__item">
-                            <a href="#" className="social__link"><i className="fab fa-twitch"></i></a>
+                            <a href="mailto:support@smartstaking.io" target='_blank' className="social__link" ><i className="fab fa-envelope"></i></a>
                         </li>
-                        <li className="social__item">
-                            <a href="#" className="social__link"><i className="fab fa-instagram"></i></a>
-                        </li>
-                        <li className="social__item">
-                            <a href="#" className="social__link"><i className="fab fa-linkedin-in"></i></a>
-                        </li>
-                        <li className="social__item">
-                            <a href="#" className="social__link"><i className="fab fa-facebook-f"></i></a>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>

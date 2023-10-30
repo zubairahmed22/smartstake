@@ -1,6 +1,5 @@
-import { Link } from "react-router-dom"
-import AuditPdf from "./AUDIT.pdf"
-import whitePaper from "./Whitepaper.pdf"
+import { Link, NavLink } from "react-router-dom"
+
 const HeaderComponent = () => {
     return (
       <header className="header-section">
@@ -21,7 +20,7 @@ const HeaderComponent = () => {
                           <div className="menu-area">
                               <ul className="menu">
                                   <li>
-                                     <Link to={'/'} >Home</Link>
+                                     <NavLink to={'/'}>Home</NavLink>
                                       
                                   </li>
                                   
@@ -42,9 +41,7 @@ const HeaderComponent = () => {
                                       
                                   </li>
                                   <li> <Link to={'Contact'}> Contact</Link></li>
-                                  <li> <a  href={AuditPdf} target= "_blank" onClick={window.open(AuditPdf)}>Audit</a></li>
-                                  <li> <a  href={whitePaper} target= "_blank" onClick={window.open(whitePaper)}> whitepaper</a></li>
-
+                                
                               </ul>
                               <a className="wallet-btn" href="#" data-bs-toggle="modal" data-bs-target="#wallet-option">
                                   <span>Connect

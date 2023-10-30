@@ -22,20 +22,7 @@ const Team = () => {
                         <div className="team__content">
                             <h4><a href="team-member.html">Name</a></h4>
                             <p>CEO</p>
-                            <ul className="social">
-                                <li className="social__item">
-                                    <a href="#" className="social__link"><i className="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li className="social__item">
-                                    <a href="#" className="social__link"><i className="fab fa-linkedin-in"></i></a>
-                                </li>
-                                <li className="social__item">
-                                    <a href="#" className="social__link"><i className="fab fa-twitter"></i></a>
-                                </li>
-                                <li className="social__item">
-                                    <a href="#" className="social__link"><i className="fab fa-instagram"></i></a>
-                                </li>
-                            </ul>
+                            
                         </div>
                     </div>
                 </div>
@@ -47,7 +34,7 @@ const Team = () => {
                         <div className="team__content">
                             <h4><a href="team-member.html">Name</a></h4>
                             <p>Marketing Head</p>
-                            <ul className="social">
+                            {/* <ul className="social">
                                 <li className="social__item">
                                     <a href="#" className="social__link"><i className="fab fa-facebook-f"></i></a>
                                 </li>
@@ -60,7 +47,7 @@ const Team = () => {
                                 <li className="social__item">
                                     <a href="#" className="social__link"><i className="fab fa-instagram"></i></a>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
                 </div>
@@ -72,7 +59,7 @@ const Team = () => {
                         <div className="team__content">
                             <h4><a href="team-member.html">Name</a></h4>
                             <p>Blockchain Developer</p>
-                            <ul className="social">
+                            {/* <ul className="social">
                                 <li className="social__item">
                                     <a href="#" className="social__link"><i className="fab fa-facebook-f"></i></a>
                                 </li>
@@ -85,7 +72,7 @@ const Team = () => {
                                 <li className="social__item">
                                     <a href="#" className="social__link"><i className="fab fa-instagram"></i></a>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
                 </div>

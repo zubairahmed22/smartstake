@@ -46,6 +46,39 @@ This allocation is earmarked for research, technological</p>
                         <div className="work__item">
                             <div className="work__item-inner">
                                 <div className="work__item-thumb">
+                                    <img src="assets/images/work/work_6.png" alt="work Step 3 Image"/>
+                                </div>
+                                <div className="work__item-content">
+                                    <h4>1% Liquidity Addition</h4>
+                                    <p>A healthy trading environment demands liquidity. By channeling a part
+of the fee to the liquidity pool, we ensure seamless trades, minimal slippage, and an overall
+enhanced trading experience.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-sm-6">
+                        <div className="work__item">
+                            <div className="work__item-inner">
+                                <div className="work__item-thumb">
+                                    <img src="assets/images/work/work_5.png" alt="work Step 3 Image"/>
+                                </div>
+                                <div className="work__item-content">
+                                    <h4>1% Token Burn</h4>
+                                    <p>To instill scarcity and potentially augment token value, this portion is
+perpetually removed from circulation. Over time, as the supply diminishes, each $MART token
+could inherently become more valuable, making the project deflationary by design.
+</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-sm-6">
+                        <div className="work__item">
+                            <div className="work__item-inner">
+                                <div className="work__item-thumb">
                                     <img src="assets/images/work/work_1.png" alt="work Step 3 Image"/>
                                 </div>
                                 <div className="work__item-content">
@@ -56,6 +89,7 @@ This allocation fuels marketing initiatives, brand partnerships, and outreach ef
                             </div>
                         </div>
                     </div>
+
                 </div>
                 <div className="text-center mt-5">
                     <a href="kyc.html" className="default-btn"><span>Varify KYC</span></a>

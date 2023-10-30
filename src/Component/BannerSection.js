@@ -1,4 +1,7 @@
 import React from 'react'
+// import WhitePaper from '..Documents/Whitepaper'
+// import AuditPDF from "../Documents/AUDIT"
+import { Link } from 'react-router-dom'
 
 const BannerSection = () => {
   return (
@@ -23,7 +26,59 @@ financial constraints </p>
                     </div>
                 </div>
             </div>
+            <div className='topHeading'>
+                <h2>100% Secure</h2>
+                <p>Our smart contract has been fully audited by an independent <br/> third-party company and is shown to secure.</p>
 
+            </div>
+           <div className='pdfDiv'>
+            
+           <div className='whitePaper'>
+               <div className='textstyle'>
+                <h2>WHITE PAPER</h2>
+                
+                
+                <div className='pdfBox'>
+                {/* <a href={WhitePaper}  target="_blank">  */}
+                
+                <img src='\assets\images\banner\icon_kyc_5.png' className='pdfIcon_image'/> 
+                  
+                <h6>PDF</h6>
+                {/* <a  href={WhitePaper}  target="_blank" onClick={window.open(WhitePaper)}>  */}
+                <img src='\assets\images\banner\icon_kyc_4.png' className='pdfIcon_image'/>
+                
+                    </div>
+               </div>
+              
+               <div className='textDiv'>
+              <p> Download our whitepaper to get a detailed <br/>understanding of smartstaking</p>
+              <img src='\assets\images\banner\icon_kyc_stack.png' className='pdfIcon_stack'/>  
+               </div>
+            </div>
+
+            <div className='auditClass'>
+            <div className='aduitbox'>
+            <h2>AUDIT REPORT</h2>
+            <div>
+            <div className='pdfBox'>
+                {/* <a  href={AuditPDF}  target="_blank" onClick={window.open(AuditPDF)}>  */}
+                <img src='\assets\images\banner\icon_kyc_5.png' className='pdfIcon_image'/>    
+                {/* </a> */}
+                <h6>Approved</h6>
+                {/* <a href={AuditPDF} target="_blank" onClick={window.open(AuditPDF)}> */}
+                <img src='\assets\images\banner\icon_kyc_4.png' className='pdfIcon_image'/>  
+               
+                    </div>
+                    </div>
+            </div>
+            <div className="textDivAudit">
+                <p>The  smart contract has been audited by blockchain <br/> security specialist Solid Proof</p>
+                <img src='\assets\images\banner\icon_audit_report.png' className='pdfIcon_audit'/>  
+            </div>
+            </div>
+           
+           
+           </div>
         </div>
     </section>
   )
