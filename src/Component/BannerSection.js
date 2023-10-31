@@ -1,5 +1,5 @@
 import React from 'react'
-import whitePaper from "../Documents/WHITEPAPER.pdf"
+import whitePaper from "../Documents/smartStaking.pdf"
 import auditPDF from "../Documents/AUDIT.pdf"
 
 
