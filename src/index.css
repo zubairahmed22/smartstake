@@ -568,10 +568,60 @@ flex-direction: column;
 
 .Content{
   display: flex;
-  width: 80%;
+  flex-direction: column;
+  
+  justify-content: center;
+  background-color: #0f4e92;
+  
+  
+  
+}
+.content1{
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+
+.content1.show{
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
+.item{
+  
+    background-color: rgb(22 87 158);
+
+}
+section#faq {
+  background: #0f4e92;
+  
+}
+
+.title{
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+  width:100%;
+  border-bottom: 1px solid white;
+  margin-top: 5px;
+  cursor: pointer;
+  padding: 15px 15px;
   
+}
+.title > span{
+  background-color: #0f4e92;
   
+  padding: 0px 6px;
+  border-radius: 5px;
+  color: #fffcfc;
+  font-weight: 600;
+}
+.faqParagraph{
+  margin: 0px 20px;
+  margin-top: 5px;
+  font-size: 15px;
+  color: rgb(219, 218, 218);
 }
 .pdfBox{
   display: flex;
@@ -596,3 +646,257 @@ margin-top: 10px;
   border-radius: 0px 70px 0px 0px;
   margin-top: 100px;
 }
+ /* buy token style section start hrere .. */
+ .stacking.padding-top.padding-bottom {
+  background-color: #145096;
+}
+.firstDiv{
+  display: flex;
+  flex-direction: column;
+}
+.HeadingDiv > p {
+  color: rgb(245, 244, 243);
+  font-size: 14px;
+  margin-top: 15px;
+}
+ .main{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+ }
+ .leftDIV{
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  
+
+ }
+ .swap{
+ border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+  padding: 5px 20px;
+  background-color: #0c3c7c;
+  align-items: center;
+  
+ }
+ .imagediv > h5{
+  margin-top: 15px;
+ }
+ .swap > button {
+  border: none;
+  background-color: #145096;
+  border-radius: 20px;
+  font-size: 14px;
+  color: white;
+  padding: 15px;
+ }
+ .availableHeading{
+  display: flex;
+  justify-content: end;
+  margin-right: 15px;
+ 
+ }
+ .secondInputDiv{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+ }
+ .secondInputDiv > button {
+  position: absolute;
+  right: 0;
+  margin-right: 30px;
+  border: none;
+  margin-top: 10px;
+  padding:  5px 15px;
+  border-radius: 15px;
+  background-color: #0c3c7c;
+  color: rgb(186 176 176);
+
+ }
+ .Btn_collection{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  
+  
+ }
+ .Btn_collection1{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  
+  
+ }
+ .Btn_collection1 > button{
+ 
+    border: none;
+    border-radius: 5px;
+    padding: 5px 12px;
+    background-color: #145096;
+    color: #f7f0f0; 
+ }
+ .Btn_collection > button{
+  border: none;
+    border-radius: 5px;
+    padding: 5px 12px;
+    background-color: #145096;
+    color: #f7f0f0;
+
+  
+  
+ }
+ .secondInputDiv  > input {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 60px;
+ }
+ .secondInputDiv > input {
+  width: 350px;
+  background: #145096;
+}
+ .BNB_logo{
+  position: absolute;
+  left: 0;
+  width: 10%;
+  margin-top: 5px;
+  margin-left: 30px;
+ }
+ .instaimage{
+  width: 40%;
+  margin-left: 20px;
+  height: 120px;
+  margin-top: 20px;
+  
+
+  
+ }
+ .My_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.myclass {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  
+}
+ .instaDiv{
+  width: 250px;
+  height: 150px;
+  display: flex;
+  justify-content: end;
+ }
+ .bottomtext{
+  text-align: center;
+  color: rgb(243, 238, 238);
+  font-weight: 400;
+  font-size: 14px;
+ }
+ .secondInputDiv > input {
+  width: 350px;
+ }
+ .availableHeading >p{
+  color: white;
+  margin-top: 10px;
+  font-weight: 600;
+ }
+ .inputDIV{
+  display: flex;
+  flex-direction: column;
+  background-color: #0c3c7c;
+  width: 380px;
+  border-radius: 20px;
+  margin-top: 20px;
+ }
+ .inputDiv  > p{
+   text-align: end;
+   color: white;
+ }
+ .downloadImage{
+  width: 25%;
+ }
+ .imagediv{
+  display: flex;
+  gap: 20px;
+ }
+ .inputDiv{
+  display: flex;
+ }
+
+
+ .BtnDiv{
+  display: flex;
+  gap: 30px;
+  margin-top: 25px;
+  
+ }
+ .stakeBtn{
+  width: 382px;
+  border: none;
+  padding: 7px;
+  margin-top: 25px;
+  border: 3px solid;
+  border-image: linear-gradient(45deg,#2667d0,#79e5f4) 1;
+  background-color: #0f4e92;
+  font-size: 16px;
+  color: white;
+ }
+ .stakeBtn:hover{
+  transform: scale(1.1);
+  transition: .9s;
+ }
+ .Bridge{
+  width: 200px;
+  border: none;
+  padding: 7px;
+  font-size: 15px;
+  background-color: #0f4e92;
+  color: white;
+  border: 3px solid;
+  border-image: linear-gradient(45deg,#2667d0,#79e5f4) 1;
+
+ }
+ .Bridge:hover{
+  transform: scale(1.1);
+  transition: .9s;
+}
+ 
+ .metaBtn{
+width: 150px;
+border: none;
+padding: 7px;
+border: 3px solid;
+border-image: linear-gradient(45deg,#2667d0,#79e5f4) 1;
+background-color: #0f4e92;
+  color: white;
+ }
+ .metaBtn:hover{
+  transform: scale(1.1);
+  transition: .9s;
+ }
+ .blogImageIcon{
+  width: 10%;
+ }
+ @media only screen and (max-width: 600px) {
+  .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftDIV{
+    margin-top: 30px;
+  }
+ }

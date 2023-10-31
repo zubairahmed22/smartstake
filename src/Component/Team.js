@@ -20,8 +20,8 @@ const Team = () => {
                             <img src="assets/images/team/person.png" alt="Team Member Image"/>
                         </div>
                         <div className="team__content">
-                            <h4><a href="team-member.html">Name</a></h4>
-                            <p>CEO</p>
+                            <h4><a href="team-member.html">Ibrahim Sow</a></h4>
+                            <p>OWNER</p>
                             
                         </div>
                     </div>

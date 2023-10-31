@@ -104,7 +104,8 @@ finance's stability with crypto's innovation.</p>
                                 <ul className="lab-ul widget-wrapper list-bg-none">
                                    
                                     <li>
-                                        <a href="#" className="d-flex flex-wrap justify-content-between"><span><i
+                                        <a href="#" className="d-flex flex-wrap justify-content-between"><span>
+                                            <i
                                                     className="fa-solid fa-folder"></i>Marketing</span><span>2%</span></a>
                                     </li>
                                     <li>

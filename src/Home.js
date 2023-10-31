@@ -10,7 +10,7 @@ import FaqSection from './Component/FaqSection';
 const Home = () => {
   return (
     <div> <BannerSection/>
-    {/* <FaqSection/> */}
+    <FaqSection/>
    
     <CardSection/>
    

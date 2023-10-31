@@ -29,7 +29,7 @@ const HeaderComponent = () => {
                                      
                                   </li>
                                   <li>
-                                      <Link to={'BuyToken'}>Buy Token</Link>
+                                      <Link to={'BuyToken'}>Buy Now</Link>
                                      
                                   </li>
                                   <li>

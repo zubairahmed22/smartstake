@@ -1,7 +1,7 @@
 import React from 'react'
-// import WhitePaper from '..Documents/Whitepaper'
-// import AuditPDF from "../Documents/AUDIT"
-import { Link } from 'react-router-dom'
+import WhitePaper from "../Documents/WHITEPAPER.pdf"
+import AuditPDF from "../Documents/AUDIT.pdf"
+
 
 const BannerSection = () => {
   return (
@@ -39,14 +39,14 @@ financial constraints </p>
                 
                 
                 <div className='pdfBox'>
-                {/* <a href={WhitePaper}  target="_blank">  */}
+                <a href={WhitePaper}target="_blank"> 
                 
                 <img src='\assets\images\banner\icon_kyc_5.png' className='pdfIcon_image'/> 
-                  
+                  </a>
                 <h6>PDF</h6>
-                {/* <a  href={WhitePaper}  target="_blank" onClick={window.open(WhitePaper)}>  */}
+                <a  href={WhitePaper}target="_blank"> 
                 <img src='\assets\images\banner\icon_kyc_4.png' className='pdfIcon_image'/>
-                
+                </a>
                     </div>
                </div>
               
@@ -61,13 +61,13 @@ financial constraints </p>
             <h2>AUDIT REPORT</h2>
             <div>
             <div className='pdfBox'>
-                {/* <a  href={AuditPDF}  target="_blank" onClick={window.open(AuditPDF)}>  */}
+                <a  href={AuditPDF}  target="_blank"> 
                 <img src='\assets\images\banner\icon_kyc_5.png' className='pdfIcon_image'/>    
-                {/* </a> */}
+                </a>
                 <h6>Approved</h6>
-                {/* <a href={AuditPDF} target="_blank" onClick={window.open(AuditPDF)}> */}
+                <a href={AuditPDF} target="_blank">
                 <img src='\assets\images\banner\icon_kyc_4.png' className='pdfIcon_image'/>  
-               
+                 </a>
                     </div>
                     </div>
             </div>
