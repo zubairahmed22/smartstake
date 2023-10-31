@@ -1,6 +1,6 @@
 import React from 'react'
-import whitePaper from "../Documents/smartStaking.pdf"
-import auditPDF from "../Documents/AUDIT.pdf"
+import auditPDF from "../Documents/audit.pdf"
+import whitePaper from "../Documents/SMART.pdf"
 
 
 const BannerSection = () => {
