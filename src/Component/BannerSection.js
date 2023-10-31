@@ -1,6 +1,5 @@
 import React from 'react'
-import auditPDF from "../Documents/audit.pdf"
-import whitePaper from "../Documents/SMART.pdf"
+
 
 
 const BannerSection = () => {
@@ -39,12 +38,12 @@ financial constraints </p>
                 
                 
                 <div className='pdfBox'>
-                <a href={whitePaper}target="_blank"> 
+                <a href='/Documents/SMART.pdf'target="_blank"> 
                 
                 <img src='\assets\images\banner\icon_kyc_5.png' className='pdfIcon_image'/> 
                   </a>
                 <h6>PDF</h6>
-                <a  href={whitePaper}target="_blank"> 
+                <a  href='/Documents/SMART.pdf'target="_blank"> 
                 <img src='\assets\images\banner\icon_kyc_4.png' className='pdfIcon_image'/>
                 </a>
                     </div>
@@ -61,11 +60,11 @@ financial constraints </p>
             <h2>AUDIT REPORT</h2>
             <div>
             <div className='pdfBox'>
-                <a  href={auditPDF}  target="_blank"> 
+                <a  href='\documents\AUDIT.pdf'  target="_blank"> 
                 <img src='\assets\images\banner\icon_kyc_5.png' className='pdfIcon_image'/>    
                 </a>
                 <h6>Approved</h6>
-                <a href={auditPDF} target="_blank">
+                <a href='\documents\AUDIT.pdf' target="_blank">
                 <img src='\assets\images\banner\icon_kyc_4.png' className='pdfIcon_image'/>  
                  </a>
                     </div>
