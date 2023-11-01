@@ -4,7 +4,7 @@ import CardSection from "./Component/CardSection";
 import RoadmapSection from "./Component/RoadmapSection";
 import Section_3 from "./Component/Section_3";
 import Disclaimer from './Component/Disclaimer';
-import FaqSection from './Component/FaqSection';
+
 
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
    
     <Section_3/>
     <RoadmapSection/>
-    <FaqSection/>
+
     <Disclaimer/>
     
 

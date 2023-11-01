@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const BuyToken = () => {
   return (
@@ -8,25 +9,22 @@ const BuyToken = () => {
        <div className='firstDiv'>
         <div className='HeadingDiv'>
           <h1>
-          The METTA<br/>
+          The SMARTSTAKING<br/>
           Token
           </h1>
-          <h5>POWERING THE METTA ECOSYSTEM</h5>
-          <p>The METTA Protocol <span>(METTA TOKEN)</span>is a multi-chain that serves <br/>as the utility token for cross-chain transactions and interactions with the METTA Protocol.</p>
+          <h5>POWERING THE SMARTSTAKE ECOSYSTEM</h5>
+          <p>The SMARTSTAKING Protocol <span>(SMART TOKEN)</span>is a multi-chain that serves <br/>as the utility token for cross-chain transactions and interactions with the SMARTSTAKE Protocol.</p>
         </div>
-        <div className='BtnDiv'>
-          <button className='metaBtn'>GET METTA</button>
-          <button className='Bridge'>BRIDGE METTA</button>
-        </div>
-        <button className='stakeBtn'> STAKE MEETA</button>
+        
+        <button className='stakeBtn'><Link to={'/Staking'}>STAKE SMARTSTAKE </Link></button>
        </div>
 
        <div>
         <div className='leftDIV'>
           <div className='swap'>
             <div className='imagediv'>
-              <img src='\assets\images\logo\download.png' className='downloadImage'/>
-              <h5>METTA Swap</h5>
+              <img src='\assets\images\shape\logoicon.svg' className='downloadImage'/>
+              <h6>SMARTSTAKING Swap</h6>
             </div>
             <button>CONNECT</button>
           </div>
@@ -52,15 +50,15 @@ const BuyToken = () => {
            <div className='availableHeading'><p>Balance:</p></div>
            <div className='secondInputDiv'>
            <input className='inputField'/>
-           <img src='assets\images\logo\logo192.png' className='BNB_logo'/>
-           <button>Metta</button>
+           <img src='assets\images\shape\logoicon.svg' className='BNB_logo'/>
+           <button>STAKING</button>
            </div>
            <div className='Btn_collection1'>
             <button>Approve</button>
             <button>Swap</button>
             
            </div>
-           <p className='bottomtext'>Powered by METTA PROTOCOL</p>
+           <p className='bottomtext'>Powered by SMARTSTAKE PROTOCOL</p>
 
            
          </div>

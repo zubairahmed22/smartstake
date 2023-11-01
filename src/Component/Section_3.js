@@ -1,6 +1,11 @@
-import React from 'react'
-
+import React,{useEffect} from 'react'
+import AOS, { init } from 'aos';
+import 'aos/dist/aos.css';
 const Section_3 = () => {
+
+  useEffect(() =>{
+    AOS.init({duration: 800})
+    },[])
   return (
     <section className="project padding-bottom project--completed2">
     <div className="container">
@@ -15,7 +20,7 @@ const Section_3 = () => {
       <div className="project__wrapper">
         <div className="row g-4">
           <div className="col-12">
-            <div className="project__item2 position-relative aos-init" >
+            <div className="project__item2 position-relative" data-aos="fade-up" >
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">
@@ -46,7 +51,7 @@ const Section_3 = () => {
             </div>
           </div>
           <div className="col-12">
-            <div className="project__item2 position-relative aos-init" >
+            <div className="project__item2 position-relative"  data-aos="fade-up" >
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">
@@ -76,7 +81,7 @@ const Section_3 = () => {
             </div>
           </div>
           <div className="col-12">
-            <div className="project__item2 position-relative aos-init" >
+            <div className="project__item2 position-relative"  data-aos="fade-up" >
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">
@@ -106,7 +111,7 @@ const Section_3 = () => {
             </div>
           </div>
           <div className="col-12">
-            <div className="project__item2 position-relative aos-init" >
+            <div className="project__item2 position-relative"  data-aos="fade-up" >
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">
@@ -136,7 +141,7 @@ const Section_3 = () => {
             </div>
           </div>
           <div className="col-12">
-            <div className="project__item2 position-relative aos-init" >
+            <div className="project__item2 position-relative"  data-aos="fade-up" >
               <div className="project__item2-inner">
                 {/* project name */}
                 <div className="project__item2-name">

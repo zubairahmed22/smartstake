@@ -17,7 +17,7 @@ const Team = () => {
                 <div className="col-lg-3 col-sm-6">
                     <div className="team__item" >
                         <div className="team__thumb">
-                            <img src="assets/images/team/person.png" alt="Team Member Image"/>
+                            <img src="assets/images/team/owner.png" alt="Team Member Image"/>
                         </div>
                         <div className="team__content">
                             <h4><a href="team-member.html">Ibrahim Sow</a></h4>

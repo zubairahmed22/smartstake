@@ -49,8 +49,8 @@ export default FaqSection
 
 const data = [
     {
-    "title": "How does Watchvestor work?",
-    "content": "Watchvestor is a platform that allows the everyday person to buy, sell and invest in rare multimillion-dollar timepieces in the same way you would buy a share. This is achieved through the fractionalization of our asset-backed NFTs."
+    "title": "How does SmartStaking work?",
+    "content": "SmartStaking is a platform that allows the everyday person to buy, sell and invest in rare multimillion-dollar timepieces in the same way you would buy a share. This is achieved through the fractionalization of our asset-backed NFTs."
     
 },
 {
@@ -58,7 +58,7 @@ const data = [
 "content": "The minimum trade size is $20 or currency equivalent."
 },{
     "title": "Which currencies do you accept?",
-    "content": "To purchase WVTR token in the presale, we accept ETH, USDT or you can pay via credit or debit card. You will be able to purchase watch-backed NFTs using the following currencies: BTC ETH, USDT, USDC, BSC, SHIB, DOGE, UNI"
+    "content": "To purchase smart-stake token in the presale, we accept ETH, USDT or you can pay via credit or debit card. You will be able to purchase watch-backed NFTs using the following currencies: BTC ETH, USDT, USDC, BSC, SHIB, DOGE, UNI"
 },
 {
     "title": "How many people can join the waitlist?",
@@ -72,12 +72,12 @@ const data = [
 "content": "Yes, you can redeem the watch out of our vault if you hold 100% of the watch NFTs."
 },
 {
-    "title": "Can I use WVTR to get a discount on trading?",
-    "content": "Yes you can use the WTVR token to get a discount when purchasing the watch NFTs"
+    "title": "Can I use smartstake to get a discount on trading?",
+    "content": "Yes you can use the smartstake token to get a discount when purchasing the watch NFTs"
 },
 {
-    "title": "Where can I purchase WTVR tokens?",
-    "content": "You can purchase WVTR tokens from the presale, via our website, using the wallet connect function. Once the presale has finished and the token launched, you will be able to purchase WTVR on Uniswap"
+    "title": "Where can I purchase smartstake tokens?",
+    "content": "You can purchase smartstake tokens from the presale, via our website, using the wallet connect function. Once the presale has finished and the token launched, you will be able to purchase WTVR on Uniswap"
 }
 
 

@@ -18,13 +18,13 @@ const Contact = () => {
                         <form action="contact.php" className="form">
                             <div className="row">
                                 <div className="col-md-6">
-                                    <input type="text" placeholder="Contact*" required/>
+                                    <input type="text" placeholder="Your Name*" required/>
                                 </div>
                                 <div className="col-md-6">
                                     <input type="email" placeholder="Your Email*" required/>
                                 </div>
                                 <div className="col-md-6">
-                                    <input type="tel" placeholder="Your No*" required/>
+                                    <input type="tel" placeholder="Contact*" required/>
                                 </div>
                                 <div className="col-md-6">
                                     <input type="text" placeholder="Subject*" required/>

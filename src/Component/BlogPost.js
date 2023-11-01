@@ -103,28 +103,53 @@ finance's stability with crypto's innovation.</p>
                                 </div>
                                 <ul className="lab-ul widget-wrapper list-bg-none">
                                    
-                                    <li>
-                                        <a href="#" className="d-flex flex-wrap justify-content-between"><span>
-                                            <i
-                                                    className="fa-solid fa-folder"></i>Marketing</span><span>2%</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="d-flex flex-wrap justify-content-between"><span><i
-                                                    className="fa-solid fa-folder"></i> Liquidity Addition</span><span>1%</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="d-flex flex-wrap justify-content-between"><span><i
-                                                    className="fa-solid fa-folder"></i>Token Burn
-                                              </span><span>1%</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="d-flex flex-wrap justify-content-between"><span><i
-                                                    className="fa-solid fa-folder"></i>Project Development</span><span>2%</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="d-flex flex-wrap justify-content-between"><span><i
-                                                    className="fa-solid fa-folder"></i>Redistribution in BUSD</span><span>4%</span></a>
-                                    </li>
+                                    <div className='listDiv'>
+                                        
+                                       <div className='listImgDiv'>
+                                        <img src='assets/images/logo/advertising.png' className="blogImageIcon"/>
+                                        <span> Marketing</span>
+                                        </div>     
+                                       <span>2%</span>
+                                    </div>
+                                    <div className='listDiv'>
+                                        
+                                       <div className='listImgDiv'>
+                                        <img src='assets/images/logo/water-rate.png' className="blogImageIcon"/>
+                                        <span> Liquidity Addition</span>
+                                        </div>     
+                                       <span>1%</span>
+                                    </div>
+                                    
+
+                                    <div className='listDiv'>
+                                        
+                                        <div className='listImgDiv'>
+                                         <img src='assets/images/logo/fire.png' className="blogImageIcon"/>
+                                         <span> Token Burn</span>
+                                         </div>     
+                                        <span>1%</span>
+                                     </div>
+
+                                     <div className='listDiv'>
+                                        
+                                        <div className='listImgDiv'>
+                                         <img src='assets/images/logo/development.png' className="blogImageIcon"/>
+                                         <span> Project Development</span>
+                                         </div>     
+                                        <span>2%</span>
+                                     </div>
+
+                                     <div className='listDiv'>
+                                        
+                                        <div className='listImgDiv'>
+                                         <img src='assets/images/logo/gas.png' className="blogImageIcon"/>
+                                         <span> Redistribution in BUSD</span>
+                                         </div>     
+                                        <span>4%</span>
+                                     </div>
+                                    
+                                    
+                                    
                                    
                                 </ul>
                             </div>

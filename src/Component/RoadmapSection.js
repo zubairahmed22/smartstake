@@ -15,7 +15,7 @@ const RoadmapSection = () => {
         <div className="roadmap__wrapper2">
             <div className="row gy-4 gy-md-0 gx-5">
                 <div className="col-md-6 offset-md-6">
-                    <div className=" roadmap__item2 ms-md-4 aos-init" >
+                    <div className=" roadmap__item2 ms-md-4" data-aos="fade-left" >
                         <div className="roadmap__item2-inner">
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
@@ -32,7 +32,7 @@ const RoadmapSection = () => {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <div className=" roadmap__item2 ms-auto me-md-4 aos-init">
+                    <div className=" roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
                         <div className="roadmap__item2-inner">
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
@@ -48,7 +48,7 @@ const RoadmapSection = () => {
                     </div>
                 </div>
                 <div className="col-md-6 offset-md-6">
-                    <div className="roadmap__item2 ms-md-4  aos-init" >
+                    <div className="roadmap__item2 ms-md-4" data-aos="fade-left">
                         <div className="roadmap__item2-inner">
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
@@ -63,7 +63,7 @@ const RoadmapSection = () => {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <div className="roadmap__item2 ms-auto me-md-4  aos-init" >
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right" >
                         <div className="roadmap__item2-inner">
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
@@ -78,7 +78,7 @@ const RoadmapSection = () => {
                     </div>
                 </div>
                 <div className="col-md-6 offset-md-6">
-                    <div className="roadmap__item2 ms-md-4  aos-init">
+                    <div className="roadmap__item2 ms-md-4" data-aos="fade-left">
                         <div className="roadmap__item2-inner">
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
@@ -93,7 +93,7 @@ spearhead impactful marketing campaigns.</p>
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <div className="roadmap__item2 ms-auto me-md-4  aos-init">
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
                         <div className="roadmap__item2-inner">
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
