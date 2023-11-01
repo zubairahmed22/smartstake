@@ -1,15 +1,22 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 
+
+import AOS, { init } from 'aos';
+import 'aos/dist/aos.css';
 
 
 const BannerSection = () => {
+
+    useEffect(() =>{
+        AOS.init({duration: 2000})
+        },[])
   return (
     <section className="banner" id="home" style={{backgroundImage: ''}}>
         <div className="container">
             <div className="banner__wrapper">
                 <div className="row g-5 align-items-center">
                     <div className="col-lg-6">
-                        <div className="banner__content" >
+                        <div className="banner__content" data-aos="fade-right">
                             <h1 className="text-uppercase">Cryptocurrency <br/> revolutionized  <br/>the  finance</h1>
                             <p>it offers a new horizon of opportunities untethered from traditional
 financial constraints </p>
@@ -30,7 +37,7 @@ financial constraints </p>
                 <p>Our smart contract has been fully audited by an independent <br/> third-party company and is shown to secure.</p>
 
             </div>
-           <div className='pdfDiv'>
+           <div className='pdfDiv' data-aos="fade-right">
             
            <div className='whitePaper'>
                <div className='textstyle'>

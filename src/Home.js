@@ -10,12 +10,13 @@ import FaqSection from './Component/FaqSection';
 const Home = () => {
   return (
     <div> <BannerSection/>
-    <FaqSection/>
+    
    
     <CardSection/>
    
     <Section_3/>
     <RoadmapSection/>
+    <FaqSection/>
     <Disclaimer/>
     
 
