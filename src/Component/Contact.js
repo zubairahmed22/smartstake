@@ -23,12 +23,7 @@ const Contact = () => {
                                 <div className="col-md-6">
                                     <input type="email" placeholder="Your Email*" required/>
                                 </div>
-                                <div className="col-md-6">
-                                    <input type="tel" placeholder="Contact*" required/>
-                                </div>
-                                <div className="col-md-6">
-                                    <input type="text" placeholder="Subject*" required/>
-                                </div>
+                                
                                 <div className="col-12">
                                     <textarea placeholder="Your Message"></textarea>
                                 </div>

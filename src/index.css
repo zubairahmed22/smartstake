@@ -508,6 +508,10 @@ body {
     -webkit-backdrop-filter: blur(20px);
     /* color: white; */
 }
+
+.widget__header > h5 {
+  color: #16589e;
+}
 .menu li a:hover {
   background: rgb(14 72 133);
 }

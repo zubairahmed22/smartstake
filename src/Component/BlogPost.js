@@ -27,15 +27,8 @@ const BlogPost = () => {
                                     <div className="post-content pt-0">
                                         <h3> Staking and DApp Development</h3>
                                         <ul className="blog__meta d-flex flex-wrap align-items-center mb-4">
-                                            <li className="blog__meta-author">
-                                                <a href="#"><span><i className="fa-solid fa-user"></i></span> dorothea
-                                                </a>
-                                            </li>
-                                            <li className="blog__meta-date">
-                                                <a href="#"><span><i className="fa-solid fa-calendar-days"></i></span>
-                                                    30
-                                                    December 2022</a>
-                                            </li>
+                                            
+                                            
                                         </ul>
                                         <p> Staking allows users to lock away a specified amount of $SMART in return for financial
 rewards to maximize the potential of their holdings. At its core, staking will offer a dual
@@ -157,50 +150,7 @@ finance's stability with crypto's innovation.</p>
 
 
 
-                            <div className="widget widget-post">
-                                <div className="widget__header">
-                                    <h5>Recent Post</h5>
-                                </div>
-                                <ul className="lab-ul widget-wrapper">
-                                    <li className="widget-post-item">
-                                        <div className="post-thumb">
-                                            <a href="blog-single.html"><img src="assets/images/blog/p-post/01.jpg"
-                                                    alt="product"/></a>
-                                        </div>
-                                        <div className="post-content">
-                                            <a href="blog-single.html">
-                                                <h6>Extend Liquidity Lock</h6>
-                                            </a>
-                                            <p>02 January 2023</p>
-                                        </div>
-                                    </li>
-                                    <li className="widget-post-item">
-                                        <div className="post-thumb">
-                                            <a href="blog-single.html"><img src="assets/images/blog/p-post/02.jpg"
-                                                    alt="product"/></a>
-                                        </div>
-                                        <div className="post-content">
-                                            <a href="blog-single.html">
-                                                <h6>Community Growth</h6>
-                                            </a>
-                                            <p>21 February 2023</p>
-                                        </div>
-                                    </li>
-                                    <li className="widget-post-item">
-                                        <div className="post-thumb">
-                                            <a href="blog-single.html"><img src="assets/images/blog/p-post/03.jpg"
-                                                    alt="product"/></a>
-                                        </div>
-                                        <div className="post-content">
-                                            <a href="blog-single.html">
-                                                <h6>Full-Scale Marketing</h6>
-                                            </a>
-                                            <p>30 Sep 2023</p>
-                                        </div>
-                                    </li>
-                                  
-                                </ul>
-                            </div>
+                           
 
 
 

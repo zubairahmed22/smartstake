@@ -20,7 +20,7 @@ const BannerSection = () => {
                             <h1 className="text-uppercase">Cryptocurrency <br/> revolutionized  <br/>the  finance</h1>
                             <p>it offers a new horizon of opportunities untethered from traditional
 financial constraints </p>
-                            <a href="project.html" className="default-btn"><span>ExploreIDO</span></a>
+                           
                         </div>
                     </div>
                     <div className="col-lg-6">
