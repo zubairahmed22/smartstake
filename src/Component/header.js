@@ -3,9 +3,7 @@ import { useState } from "react"
 
 const HeaderComponent = () => {
     const [isOpen, setIsOpen] = useState(false)
-    const toggle = () =>{
-
-    }
+    
     return (
       <header className="header-section">
           <div className="container">
@@ -30,7 +28,7 @@ const HeaderComponent = () => {
                                   </li>
                                   
                                   <li>
-                                      <Link to={'Staking'}>Stacking</Link>
+                                      <Link to={'Staking'}>Staking</Link>
                                      
                                   </li>
                                   <li>
