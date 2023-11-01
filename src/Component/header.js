@@ -1,6 +1,11 @@
 import { Link, NavLink } from "react-router-dom"
+import { useState } from "react"
 
 const HeaderComponent = () => {
+    const [isOpen, setIsOpen] = useState(false)
+    const toggle = () =>{
+
+    }
     return (
       <header className="header-section">
           <div className="container">
@@ -14,11 +19,11 @@ const HeaderComponent = () => {
                           </div>
                       </div>
                       <div className="header-wrapper justify-content-lg-end">
-                          <div className="mobile-logo d-lg-none">
+                          <div className="mobile-logo d-lg-none" >
                               <a href="index.html"><img src="/assets/images/logo/smartLogo.png" alt="logo" /></a>
                           </div>
                           <div className="menu-area">
-                              <ul className="menu">
+                              <ul className={isOpen?"menu active" : "menu"}>
                                   <li>
                                      <NavLink to={'/'}>Home</NavLink>
                                       
@@ -47,8 +52,8 @@ const HeaderComponent = () => {
                                   <span>Connect
                                   </span> <i className="fa-solid fa-wallet"></i></a>
   
-                            
-                              <div className="header-bar d-lg-none">
+                                 
+                              <div className={isOpen? "active  header-bar d-lg-none" : "header-bar d-lg-none"} onClick={() => setIsOpen(!isOpen)} >
                                   <span></span>
                                   <span></span>
                                   <span></span>
