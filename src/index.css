@@ -719,16 +719,17 @@ margin-top: 10px;
   
  }
  .imagediv > h6{
-  margin-top: 5px;
+  margin-top: 19px;
   margin-left: 5px;
  }
  .swap > button {
   border: none;
-  background-color: #145096;
+  background-color: white;
   border-radius: 20px;
   font-size: 14px;
   color: white;
   padding: 15px;
+  color: #0c3c7c;;
  }
  .availableHeading{
   display: flex;
@@ -749,8 +750,8 @@ margin-top: 10px;
   margin-top: 10px;
   padding:  5px 15px;
   border-radius: 15px;
-  background-color: #0c3c7c;
-  color: rgb(186 176 176);
+  background-color: white;
+  color: #0c3c7c;
 
  }
  .Btn_collection{
@@ -775,15 +776,15 @@ margin-top: 10px;
     border: none;
     border-radius: 5px;
     padding: 5px 12px;
-    background-color: #145096;
-    color: #f7f0f0; 
+    background-color: white;
+    color: #145096; 
  }
  .Btn_collection > button{
   border: none;
     border-radius: 5px;
     padding: 5px 12px;
-    background-color: #145096;
-    color: #f7f0f0;
+    background-color: white;
+    color: #145096; 
 
   
   

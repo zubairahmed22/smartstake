@@ -36,7 +36,7 @@ const FooterSection = () => {
         <div className="footer__copyright">
             <div className="container">
                 <div className="text-center py-4">
-                    <p className=" mb-0">smartstake © 2023 | All Rights Reserved </p>
+                    <p className=" mb-0">Smartstaking © 2023 | All Rights Reserved </p>
                 </div>
             </div>
         </div>

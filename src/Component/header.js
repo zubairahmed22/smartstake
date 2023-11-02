@@ -11,14 +11,14 @@ const HeaderComponent = () => {
                   <div className="header-primary d-flex flex-wrap justify-content-between align-items-center">
                       <div className="brand-logo d-none d-lg-inline-block">
                           <div className="logo">
-                              <a href="index.html">
+                              <Link to={'/'}>
                               <img src="/assets/images/logo/smartLogo.png" alt="logo" />
-                              </a>
+                              </Link>
                           </div>
                       </div>
                       <div className="header-wrapper justify-content-lg-end">
                           <div className="mobile-logo d-lg-none" >
-                              <a href="index.html"><img src="/assets/images/logo/smartLogo.png" alt="logo" /></a>
+                            <Link to={'/'}><img src="/assets/images/logo/smartLogo.png" alt="logo" /></Link>
                           </div>
                           <div className="menu-area">
                               <ul className={isOpen?"menu active" : "menu"}>

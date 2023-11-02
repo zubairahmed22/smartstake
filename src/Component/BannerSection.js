@@ -34,7 +34,8 @@ financial constraints </p>
             </div>
             <div className='topHeading'>
                 <h2>100% Secure</h2>
-                <p>Our smart contract has been fully audited by an independent <br/> third-party company and is shown to secure.</p>
+                <p>Our smart contract has been fully audited by an independent 
+                     <br/> third-party company and all findings have been resolved and is shown to be secure.</p>
 
             </div>
            <div className='pdfDiv' data-aos="fade-right">

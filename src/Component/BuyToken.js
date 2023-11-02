@@ -9,14 +9,14 @@ const BuyToken = () => {
        <div className='firstDiv'>
         <div className='HeadingDiv'>
           <h1>
-          The SMARTSTAKING<br/>
-          Token
+          The  $MART <br/>TOKEN
+          
           </h1>
           <h5>POWERING THE SMARTSTAKE ECOSYSTEM</h5>
-          <p>The SMARTSTAKING Protocol <span>(SMART TOKEN)</span>is a multi-chain that serves <br/>as the utility token for cross-chain transactions and interactions with the SMARTSTAKE Protocol.</p>
+          <p>The SMARTSTAKING Protocol <span>($MART TOKEN)</span>is a multi-chain that serves <br/>as the utility token for cross-chain transactions and interactions with the SMARTSTAKE Protocol.</p>
         </div>
         
-        <button className='stakeBtn'><Link to={'/Staking'}>STAKE SMARTSTAKE </Link></button>
+        <button className='stakeBtn'><Link to={'/Staking'}>STAKE $MART TOKEN </Link></button>
        </div>
 
        <div>
@@ -24,7 +24,7 @@ const BuyToken = () => {
           <div className='swap'>
             <div className='imagediv'>
               <img src='\assets\images\shape\logoicon.svg' className='downloadImage'/>
-              <h6>SMARTSTAKING Swap</h6>
+              <h6>$MART SWAP</h6>
             </div>
             <button>CONNECT</button>
           </div>
@@ -33,7 +33,7 @@ const BuyToken = () => {
            <div className='secondInputDiv'>
            <input className='inputField' type='number 0'/>
            <img src='\assets\images\logo\gas.png' className='BNB_logo'/>
-           <button>tBNB</button>
+           <button>BNB</button>
            </div>
            <div className='Btn_collection'>
             <button>25%</button>
@@ -58,7 +58,7 @@ const BuyToken = () => {
             <button>Swap</button>
             
            </div>
-           <p className='bottomtext'>Powered by SMARTSTAKE PROTOCOL</p>
+           <p className='bottomtext'>Powered by $MART PROTOCOL</p>
 
            
          </div>
