@@ -107,6 +107,168 @@ users to fully interact with the $MART ecosystem</p>
 
                     </div>
                 </div>
+
+
+
+                <div className="col-md-6 offset-md-6">
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
+                        <div className="roadmap__item2-inner">
+                            <div className="roadmap__item2-content">
+                                <div className="roadmap__item2-header">
+                                    <h4>Marketing & Partnerships</h4>
+                                    <p>07</p>
+                                </div>
+                                <p>We'll embark on broad-scale promotions, collaborate with crypto
+influencers, and establish strategic partnerships to amplify our reach and impact.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div className="col-md-6">
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
+                        <div className="roadmap__item2-inner">
+                            <div className="roadmap__item2-content">
+                                <div className="roadmap__item2-header">
+                                    <h4>Staking DApp Development & Launch</h4>
+                                    <p>08</p>
+                                </div>
+                                <p>Our staking DApp will offer users an avenue to earn
+passively. The platform will be designed with user-friendliness in mind and will provide
+various staking tenures for flexibility.
+</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+         
+         
+                <div className="col-md-6 offset-md-6">
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
+                        <div className="roadmap__item2-inner">
+                            <div className="roadmap__item2-content">
+                                <div className="roadmap__item2-header">
+                                    <h4>Security Audits</h4>
+                                    <p>09</p>
+                                </div>
+                                <p>By engaging third-party auditors, we aim to reinforce confidence in our
+system, ensuring the community that their investments are safeguarded.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+ 
+
+                <div className="col-md-6">
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
+                        <div className="roadmap__item2-inner">
+                            <div className="roadmap__item2-content">
+                                <div className="roadmap__item2-header">
+                                    <h4>Listings</h4>
+                                    <p>10</p>
+                                </div>
+                                <p>Our goal is to get $MART listed on renowned platforms like CoinGecko and
+CoinMarketCap, making it more accessible to potential holders globally.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div className="col-md-6 offset-md-6">
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
+                        <div className="roadmap__item2-inner">
+                            <div className="roadmap__item2-content">
+                                <div className="roadmap__item2-header">
+                                    <h4>Extend Liquidity Lock</h4>
+                                    <p>11</p>
+                                </div>
+                                <p>As a testament to our long-term vision and commitment, we plan to
+extend the liquidity lock to 2 years. This monumental lock period is designed to curb any
+investor apprehensions, emphasizing our focus on trust.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+         
+                <div className="col-md-6">
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
+                        <div className="roadmap__item2-inner">
+                            <div className="roadmap__item2-content">
+                                <div className="roadmap__item2-header">
+                                    <h4>DApp Updates</h4>
+                                    <p>12</p>
+                                </div>
+                                <p>We pledge to continuously refine our Staking DApp, incorporating feedback
+from our users and aligning with market trends to offer an unparalleled staking experience.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                
+                <div className="col-md-6 offset-md-6">
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
+                        <div className="roadmap__item2-inner">
+                            <div className="roadmap__item2-content">
+                                <div className="roadmap__item2-header">
+                                    <h4>Community Growth</h4>
+                                    <p>13</p>
+                                </div>
+                                <p>A thriving community is the heart of any project. With targeted initiatives,
+we set our sights on nurturing a 5,000+ strong token holder community, fostering mutual
+growth.
+</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div className="col-md-6">
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
+                        <div className="roadmap__item2-inner">
+                            <div className="roadmap__item2-content">
+                                <div className="roadmap__item2-header">
+                                    <h4>Full-Scale Marketing</h4>
+                                    <p>14</p>
+                                </div>
+                                <p> In our unrelenting pursuit to reach potential holders, we'll implement a
+holistic marketing strategy. This will encompass social media blitzes, forum discussions,
+participation in crypto-related events, and more, ensuring $MART's resonating presence in the
+crypto space.
+</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
             </div>
         </div>
     </div>

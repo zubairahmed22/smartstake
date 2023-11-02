@@ -13,10 +13,10 @@ const BuyToken = () => {
           
           </h1>
           <h5>POWERING SMARTSTAKING ECOSYSTEM</h5>
-          <p>The SMARTSTAKING Protocol <span>($MART TOKEN)</span>is a multi-chain that serves <br/>as the utility token for cross-chain transactions and interactions.</p>
+          <p>The SMARTSTAKING Protocol is a multi-chain that uses the  <br/><span>($MART TOKEN)</span>as the utility token for cross-chain transactions and interactions </p>
         </div>
         
-        <button className='stakeBtn'><Link to={'/Staking'}>STAKE $MART TOKEN </Link></button>
+        <button className='stakeBtn'><Link to={'/Staking'} className='linstylebutton'>STAKE $MART TOKEN </Link></button>
        </div>
 
        <div>
@@ -58,7 +58,7 @@ const BuyToken = () => {
             <button>Swap</button>
             
            </div>
-           <p className='bottomtext'>Powered by $MART PROTOCOL</p>
+           <p className='bottomtext'>Powered by $MART</p>
 
            
          </div>

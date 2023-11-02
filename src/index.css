@@ -553,9 +553,11 @@ body {
 }
 .pdfIcon_stack{
   width: 30%;
+  
 }
 .pdfIcon_audit{
   width: 25%;
+  
  
 }
 .textDiv{
@@ -659,7 +661,13 @@ section#faq {
 }
 .pdfBox{
   display: flex;
+  padding: 5px 5px;
+  height: 40px;
+  align-items: center;
   gap: 20px;
+  border: 2px solid white;
+  border-radius: 9px;
+
 }
 .pdfBox > h6 {
   margin-top: 15px;
@@ -668,7 +676,7 @@ section#faq {
 .pdfIcon_image{
 height: 25px;
 cursor: pointer;
-margin-top: 10px;
+
 
 }
 .whitePaper{
@@ -916,10 +924,13 @@ margin-top: 10px;
   margin-top: 25px;
   border: 3px solid;
   border-image: linear-gradient(45deg,#2667d0,#79e5f4) 1;
-  background-color: #0f4e92;
+  background-color:white;
   font-size: 16px;
-  color: white;
+  color: #0f4e92
  }
+ button.stakeBtn > a {
+  color: #145096;
+}
  .stakeBtn:hover{
   transform: scale(1.1);
   transition: .9s;
@@ -964,7 +975,9 @@ background-color: #0f4e92;
   .leftDIV{
     margin-top: 30px;
   }
-
+  .team__wrapper {
+    margin-top: 200px;
+}
   .banner__thumb {
     margin-top: 267px;
 }

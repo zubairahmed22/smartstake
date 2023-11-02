@@ -3,7 +3,7 @@ import React from 'react'
 
 const FooterSection = () => {
   return (
-    <footer classname="footer" style={{backgroundImage: 'url(assets/images/footer/bg.png)'}}>
+    <footer className="footer" style={{backgroundImage: 'url(assets/images/footer/bg.png)'}}>
         <div className="footer__wrapper padding-top padding-bottom">
             <div className="My_container">
                 <div className="myclass">
@@ -27,9 +27,9 @@ const FooterSection = () => {
                     </ul>
                    
                 </div>
-                <div className='instaDiv'> 
+                {/* <div className='instaDiv'> 
                <img src="assets/images/banner/isntaQR.jpeg" className='instaimage'/>
-                </div> 
+                </div>  */}
                
             </div>
         </div>

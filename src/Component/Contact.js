@@ -1,6 +1,36 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 const Contact = () => {
+    // const [name, setName] = useState('');
+    // const [email, setEmail] = useState('');
+    // const [message, setMessage] = useState('');
+    // const URL = 'https://script.google.com/macros/s/AKfycbzFDkudSCf3cMtcFpYtqqIgHpwpdBF8Iu6jN3lfBq44A4oftMU2WwdRsPH41G6gnjB5/exec'
+
+    
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
+    //       const data = new URLSearchParams({
+    //         name,
+    //         email,
+    //         message,
+    //       })
+        // Make a POST request to your Google Script URL
+    //     const response = await fetch(URL, 
+    //         {
+    //             redirect: "follow",
+    //             method: "POST",
+    //             body: JSON.stringify(data),
+    //             headers: {
+    //               "Content-Type": "text/plain;charset=utf-8",
+    //             },
+    //           });
+    
+    //     if (response.status === 200) {
+    //       alert('Message sent successfully');
+    //     } else {
+    //       alert('Failed to send the message');
+    //     }
+    //   };
   return (
     <section className="contact padding-top padding-bottom">
         <div className="container">
@@ -15,17 +45,23 @@ const Contact = () => {
             <div className="contact__wrapper">
                 <div className="row justify-content-center">
                     <div className="col-lg-10">
-                        <form action="contact.php" className="form">
+                        <form className="form">
                             <div className="row">
                                 <div className="col-md-6">
-                                    <input type="text" placeholder="Your Name*" required/>
+                                    <input type="text" placeholder="Your Name*" required
+                                    
+                                    />
                                 </div>
                                 <div className="col-md-6">
-                                    <input type="email" placeholder="Your Email*" required/>
+                                    <input type="email" placeholder="Your Email*" required
+                                    
+                                    />
                                 </div>
                                 
                                 <div className="col-12">
-                                    <textarea placeholder="Your Message"></textarea>
+                                    <textarea placeholder="Your Message"
+                                   
+                                    ></textarea>
                                 </div>
                             </div>
                             <div className="text-center">
