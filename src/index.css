@@ -935,6 +935,7 @@ cursor: pointer;
   transform: scale(1.1);
   transition: .9s;
  }
+ 
  .Bridge{
   width: 200px;
   border: none;
@@ -972,8 +973,45 @@ background-color: #0f4e92;
     justify-content: center;
     align-items: center;
   }
+  .firstDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .inputDIV{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0c3c7c;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+   }
+   .HeadingDiv{
+    width: 100%
+    
+    
+   }
+   .stakeBtn{
+    width: 100%;
+    border: none;
+    padding: 7px;
+    margin-top: 25px;
+    border: 3px solid;
+    border-image: linear-gradient(45deg,#2667d0,#79e5f4) 1;
+    background-color:white;
+    font-size: 16px;
+    color: #0f4e92
+   }
   .leftDIV{
     margin-top: 30px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .team__wrapper {
     margin-top: 200px;
