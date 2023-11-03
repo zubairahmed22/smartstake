@@ -973,12 +973,31 @@ background-color: #0f4e92;
     justify-content: center;
     align-items: center;
   }
+
+  .secondInputDiv{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    width: 95%;
+   }
   .firstDiv{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
    }
+
+   .swap{
+    border-radius: 20px;
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     padding: 5px 20px;
+     background-color: #0c3c7c;
+     align-items: center;
+     
+    }
    .inputDIV{
     display: flex;
     flex-direction: column;
@@ -1010,8 +1029,7 @@ background-color: #0f4e92;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-left: 0px;
-    margin-right: 0px;
+    width: 100%;
   }
   .team__wrapper {
     margin-top: 200px;
