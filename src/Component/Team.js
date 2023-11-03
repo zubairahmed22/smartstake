@@ -34,20 +34,7 @@ const Team = () => {
                         <div className="team__content">
                             <h4><a href="team-member.html">Nertila Media</a></h4>
                             <p>Social media manager</p>
-                            {/* <ul className="social">
-                                <li className="social__item">
-                                    <a href="#" className="social__link"><i className="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li className="social__item">
-                                    <a href="#" className="social__link"><i className="fab fa-linkedin-in"></i></a>
-                                </li>
-                                <li className="social__item">
-                                    <a href="#" className="social__link"><i className="fab fa-twitter"></i></a>
-                                </li>
-                                <li className="social__item">
-                                    <a href="#" className="social__link"><i className="fab fa-instagram"></i></a>
-                                </li>
-                            </ul> */}
+                          
                         </div>
                     </div>
                 </div>
@@ -59,24 +46,24 @@ const Team = () => {
                         <div className="team__content">
                             <h4><a href="team-member.html">Noaman Haq</a></h4>
                             <p>Blockchain Developer</p>
-                            {/* <ul className="social">
-                                <li className="social__item">
-                                    <a href="#" className="social__link"><i className="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li className="social__item">
-                                    <a href="#" className="social__link"><i className="fab fa-linkedin-in"></i></a>
-                                </li>
-                                <li className="social__item">
-                                    <a href="#" className="social__link"><i className="fab fa-twitter"></i></a>
-                                </li>
-                                <li className="social__item">
-                                    <a href="#" className="social__link"><i className="fab fa-instagram"></i></a>
-                                </li>
-                            </ul> */}
+                            
                         </div>
                     </div>
                 </div>
                
+
+                <div className="col-lg-3 col-sm-6">
+                    <div className="team__item">
+                        <div className="team__thumb">
+                            <img src="assets/images/team/rajpic.png" alt="Team Member Image"/>
+                        </div>
+                        <div className="team__content">
+                            <h4><a href="team-member.html">Soundar Raj</a></h4>
+                            <p>NFT designer</p>
+                            
+                        </div>
+                    </div>
+                </div>
                 
                
                

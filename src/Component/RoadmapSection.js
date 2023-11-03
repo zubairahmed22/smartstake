@@ -20,7 +20,7 @@ const RoadmapSection = () => {
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
                                     <h4>Website Development</h4>
-                                    <p>01</p>
+                                    <p>Q4, 2023</p>
                                 </div>
                                 <p>The majority of people will first interact with Smart Staking via our social media channels and website. Our primary
                                      objective is to create an interactive, usercentric platform 
@@ -37,7 +37,7 @@ const RoadmapSection = () => {
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
                                     <h4>Social Media Engagement</h4>
-                                    <p>02</p>
+                                    <p>Q4, 2023</p>
                                 </div>
                                 <p>The crypto world thrives on community. We aim to carve out a strong and engaging digital footprint across various
                                      platforms like Twitter, Telegram, and Discord. Regular updates, interactive sessions,
@@ -53,7 +53,7 @@ const RoadmapSection = () => {
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
                                     <h4>Fair Launch on Pink Sale</h4>
-                                    <p>03</p>
+                                    <p>Q4, 2023</p>
                                 </div>
                                 <p>Transparency is key. Our initial token distribution via Pink Sale or similar platforms will be designed 
                                     to ensure every participant gets a fair opportunity,
@@ -68,7 +68,7 @@ const RoadmapSection = () => {
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
                                     <h4>Smart Contract Development</h4>
-                                    <p>04</p>
+                                    <p>Q4, 2023</p>
                                 </div>
                                 <p>The backbone of any crypto project. Our focus is on developing a robust, secure, and functional token smart contract,
                                      rigorously tested to prevent vulnerabilities and ensure seamless transactions.</p>
@@ -83,7 +83,7 @@ const RoadmapSection = () => {
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
                                     <h4>Fair Funds Allocations</h4>
-                                    <p>05</p>
+                                    <p>Q4, 2023</p>
                                 </div>
                                 <p>To kick start our journey, we will strategically allocate 70% of the
 funds to the launch, fortify trading with 60% dedicated to liquidity, and set aside 40% to
@@ -98,7 +98,7 @@ spearhead impactful marketing campaigns.</p>
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
                                     <h4>Token Launch</h4>
-                                    <p>06</p>
+                                    <p>Q1, 2024</p>
                                 </div>
                                 <p>The official token launch will open the gates for trading and staking, enabling
 users to fully interact with the $MART ecosystem</p>
@@ -116,7 +116,7 @@ users to fully interact with the $MART ecosystem</p>
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
                                     <h4>Marketing & Partnerships</h4>
-                                    <p>07</p>
+                                    <p>Q1, 2024</p>
                                 </div>
                                 <p>We'll embark on broad-scale promotions, collaborate with crypto
 influencers, and establish strategic partnerships to amplify our reach and impact.</p>
@@ -134,7 +134,7 @@ influencers, and establish strategic partnerships to amplify our reach and impac
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
                                     <h4>Staking DApp Development & Launch</h4>
-                                    <p>08</p>
+                                    <p>Q1, 2024</p>
                                 </div>
                                 <p>Our staking DApp will offer users an avenue to earn
 passively. The platform will be designed with user-friendliness in mind and will provide
@@ -155,7 +155,7 @@ various staking tenures for flexibility.
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
                                     <h4>Security Audits</h4>
-                                    <p>09</p>
+                                    <p>Q1, 2024</p>
                                 </div>
                                 <p>By engaging third-party auditors, we aim to reinforce confidence in our
 system, ensuring the community that their investments are safeguarded.</p>
@@ -173,7 +173,7 @@ system, ensuring the community that their investments are safeguarded.</p>
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
                                     <h4>Listings</h4>
-                                    <p>10</p>
+                                    <p>Q1, 2024</p>
                                 </div>
                                 <p>Our goal is to get $MART listed on renowned platforms like CoinGecko and
 CoinMarketCap, making it more accessible to potential holders globally.</p>
@@ -191,7 +191,7 @@ CoinMarketCap, making it more accessible to potential holders globally.</p>
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
                                     <h4>Extend Liquidity Lock</h4>
-                                    <p>11</p>
+                                    <p>Q2, 2024</p>
                                 </div>
                                 <p>As a testament to our long-term vision and commitment, we plan to
 extend the liquidity lock to 2 years. This monumental lock period is designed to curb any
@@ -211,7 +211,7 @@ investor apprehensions, emphasizing our focus on trust.</p>
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
                                     <h4>DApp Updates</h4>
-                                    <p>12</p>
+                                    <p>Q2, 2024</p>
                                 </div>
                                 <p>We pledge to continuously refine our Staking DApp, incorporating feedback
 from our users and aligning with market trends to offer an unparalleled staking experience.</p>
@@ -229,7 +229,7 @@ from our users and aligning with market trends to offer an unparalleled staking 
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
                                     <h4>Community Growth</h4>
-                                    <p>13</p>
+                                    <p>Q2, 2024</p>
                                 </div>
                                 <p>A thriving community is the heart of any project. With targeted initiatives,
 we set our sights on nurturing a 5,000+ strong token holder community, fostering mutual
@@ -248,7 +248,7 @@ growth.
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
                                     <h4>Full-Scale Marketing</h4>
-                                    <p>14</p>
+                                    <p>Q2, 2024</p>
                                 </div>
                                 <p> In our unrelenting pursuit to reach potential holders, we'll implement a
 holistic marketing strategy. This will encompass social media blitzes, forum discussions,

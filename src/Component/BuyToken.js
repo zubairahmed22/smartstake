@@ -19,7 +19,7 @@ const BuyToken = () => {
         <button className='stakeBtn'><Link to={'/Staking'} className='linstylebutton'>STAKE $MART TOKEN </Link></button>
        </div>
 
-       <div>
+       <div className='leftmainDiv'>
         <div className='leftDIV'>
           <div className='swap'>
             <div className='imagediv'>

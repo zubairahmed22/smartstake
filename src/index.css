@@ -693,8 +693,10 @@ cursor: pointer;
   background-color: #145096;
 }
 .firstDiv{
+  width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .HeadingDiv > p {
   color: rgb(245, 244, 243);
@@ -918,7 +920,7 @@ cursor: pointer;
   
  }
  .stakeBtn{
-  width: 382px;
+  width: 90%;
   border: none;
   padding: 7px;
   margin-top: 25px;
@@ -993,6 +995,10 @@ background-color: #0f4e92;
     justify-content: center;
     position: relative;
     margin: auto;
+    width: 100%;
+   }
+   .secondInputDiv > input{
+    
     width: 95%;
    }
   .firstDiv{
@@ -1000,14 +1006,16 @@ background-color: #0f4e92;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
    }
     
    .BNB_logo{
     position: absolute;
     left: 0;
-    width: 10%;
+    width: 8%;
     margin-top: 5px;
     margin-left: 10px;
+    
    }
 
    .swap{
@@ -1023,7 +1031,7 @@ background-color: #0f4e92;
    .inputDIV{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #0c3c7c;
     width: 100%;
     border-radius: 20px;
@@ -1035,7 +1043,7 @@ background-color: #0f4e92;
     
    }
    .stakeBtn{
-    width: 100%;
+    width: 95%;
     border: none;
     padding: 7px;
     margin-top: 25px;
@@ -1047,11 +1055,14 @@ background-color: #0f4e92;
    }
   .leftDIV{
     margin-top: 30px;
-  
+    width: 95%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
+  
+    
+    
+  }
+  .leftmainDiv{
+    width: 95%;
   }
   .team__wrapper {
     margin-top: 200px;
@@ -1072,4 +1083,91 @@ background-color: #0f4e92;
     width: 10px;
     display: none;
 }
+ }
+
+ @media screen and (min-width: 320px) and (max-width: 479px) {
+  .secondInputDiv > button {
+    position: absolute;
+    right: 0;
+    margin-right: 12px;
+    border: none;
+    margin-top: 10px;
+    padding:  6px 10px;
+    border-radius: 15px;
+    background-color: white;
+    color: #0c3c7c;
+    
+  
+   }
+   .secondInputDiv > input{
+    width: 95%;
+   }
+   
+
+  .secondInputDiv{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    width: 100%;
+   }
+  .firstDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   }
+    
+   .BNB_logo{
+    position: absolute;
+    left: 0;
+    width: 10%;
+    margin-top: 7px;
+    margin-left: 10px;
+   }
+
+   .swap{
+    border-radius: 20px;
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     
+     background-color: #0c3c7c;
+     align-items: center;
+     
+    }
+   .inputDIV{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #0c3c7c;
+    
+    border-radius: 20px;
+    margin-top: 20px;
+   }
+   .HeadingDiv{
+    width: 100%
+    
+    
+   }
+   .stakeBtn{
+    width: 95%;
+    border: none;
+    padding: 7px;
+    margin-top: 25px;
+    border: 3px solid;
+    border-image: linear-gradient(45deg,#2667d0,#79e5f4) 1;
+    background-color:white;
+    font-size: 16px;
+    color: #0f4e92
+   }
+  .leftDIV{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
  }

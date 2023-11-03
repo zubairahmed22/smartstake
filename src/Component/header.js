@@ -21,7 +21,7 @@ const HeaderComponent = () => {
                             <Link to={'/'}><img src="/assets/images/logo/smartLogo.png" alt="logo" /></Link>
                           </div>
                           <div className="menu-area">
-                              <ul className={isOpen?"menu active" : "menu"}>
+                              <ul className={isOpen?"menu active" : "menu"}onClick={() => setIsOpen(false)}>
                                   <li>
                                      <NavLink to={'/'}>Home</NavLink>
                                       
