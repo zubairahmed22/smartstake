@@ -8,7 +8,7 @@ import { Routes, Route} from "react-router-dom"
 import Team from "./Component/Team";
 import Staking from "./Staking";
 import BuyToken from "./Component/BuyToken";
-
+import Bio from "./bio"
 
 
 function App() {
@@ -33,6 +33,8 @@ function App() {
         <Route path="Contact" element={<Contact/> }/>  
         <Route path="Team" element={<Team/>} />  
         <Route path="Staking" element={<Staking/>}/>
+        <Route path="bio" element={<Bio/>}/>
+        
         <Route path="BuyToken" element={<BuyToken/>}/>
         
       </Routes>

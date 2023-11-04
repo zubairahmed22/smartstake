@@ -22,10 +22,9 @@ const RoadmapSection = () => {
                                     <h4>Website Development</h4>
                                     <p>Q4, 2023</p>
                                 </div>
-                                <p>The majority of people will first interact with Smart Staking via our social media channels and website. Our primary
-                                     objective is to create an interactive, usercentric platform 
-                                     that offers comprehensive insights into the project. This digital space will provide 
-                                     necessary information while encouraging community interaction and feedback.</p>
+                                <p>The majority of people will first interact with Smart Staking via our
+social media channels and website. Our primary objective is to create an interactive, usercentric platform that offers comprehensive insights into the project. This digital space will
+provide necessary information while encouraging community interaction and feedback.</p>
                             </div>
                         </div>
 
@@ -39,9 +38,10 @@ const RoadmapSection = () => {
                                     <h4>Social Media Engagement</h4>
                                     <p>Q4, 2023</p>
                                 </div>
-                                <p>The crypto world thrives on community. We aim to carve out a strong and engaging digital footprint across various
-                                     platforms like Twitter, Telegram, and Discord. Regular updates, interactive sessions,
-                                     and transparent communications will build trust and foster a cohesive $MART community.</p>
+                                <p>The crypto world thrives on community. We aim to carve out a
+strong and engaging digital footprint across various platforms like Twitter, Telegram, and
+Discord. Regular updates, interactive sessions, and transparent communications will build
+trust and foster a cohesive $MART community.</p>
                             </div>
                         </div>
 
@@ -52,12 +52,12 @@ const RoadmapSection = () => {
                         <div className="roadmap__item2-inner">
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
-                                    <h4>Fair Launch on Pink Sale</h4>
+                                    <h4>Smart Contract Development</h4>
                                     <p>Q4, 2023</p>
                                 </div>
-                                <p>Transparency is key. Our initial token distribution via Pink Sale or similar platforms will be designed 
-                                    to ensure every participant gets a fair opportunity,
-                                     laying the foundation for a decentralized and inclusive community.</p>
+                                <p>The backbone of any crypto project. Our focus is on
+developing a robust, secure, and functional token smart contract, rigorously tested to
+prevent vulnerabilities and ensure seamless transactions.</p>
                             </div>
                         </div>
                     </div>
@@ -67,11 +67,12 @@ const RoadmapSection = () => {
                         <div className="roadmap__item2-inner">
                             <div className="roadmap__item2-content">
                                 <div className="roadmap__item2-header">
-                                    <h4>Smart Contract Development</h4>
+                                    <h4>Fair Launch on Pink Sale</h4>
                                     <p>Q4, 2023</p>
                                 </div>
-                                <p>The backbone of any crypto project. Our focus is on developing a robust, secure, and functional token smart contract,
-                                     rigorously tested to prevent vulnerabilities and ensure seamless transactions.</p>
+                                <p>Transparency is key. Our initial token distribution via Pink Sale or
+similar platforms will be designed to ensure every participant gets a fair opportunity, laying
+the foundation for a decentralized and inclusive community.</p>
                             </div>
                         </div>
 
@@ -263,10 +264,169 @@ crypto space.
 
 
 
+                <div className="col-md-6 offset-md-6">
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
+                        <div className="roadmap__item2-inner">
+                            <div className="roadmap__item2-content">
+                                <div className="roadmap__item2-header">
+                                    <h4>NFT Creation</h4>
+                                    <p>Q3, 2024</p>
+                                </div>
+                                <p> We'll channel our efforts into the meticulous design of NFTs, instilling unique metadata in each.
+</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div className="col-md-6">
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
+                        <div className="roadmap__item2-inner">
+                            <div className="roadmap__item2-content">
+                                <div className="roadmap__item2-header">
+                                    <h4>Introduce NFT Smart Contracts</h4>
+                                    <p>	Q3, 2024</p>
+                                </div>
+                                <p> Collaboration will be key as we work with developers to create secure, efficient,
+                                     and seamlessly integrated NFT smart contracts within our existing blockchain architecture.
+</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+             
+                <div className="col-md-6 offset-md-6">
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
+                        <div className="roadmap__item2-inner">
+                            <div className="roadmap__item2-content">
+                                <div className="roadmap__item2-header">
+                                    <h4>Minting DApp Launch</h4>
+                                    <p>Q3, 2024</p>
+                                </div>
+                                <p> We'll introduce our community to the exclusive NFT Minting DApp,
+                                     a place where digital art becomes tradable and collectible.
+</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                
+                <div className="col-md-6">
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
+                        <div className="roadmap__item2-inner">
+                            <div className="roadmap__item2-content">
+                                <div className="roadmap__item2-header">
+                                    <h4>Integrate Tokens with NFT Rewards</h4>
+                                    <p>	Q3, 2024</p>
+                                </div>
+                                <p> $MART tokens will be integrated with NFTs to enable the unlocking of exclusive rewards.
+</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div className="col-md-6 offset-md-6">
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
+                        <div className="roadmap__item2-inner">
+                            <div className="roadmap__item2-content">
+                                <div className="roadmap__item2-header">
+                                    <h4>Development of the NFT Staking DApp</h4>
+                                    <p>Q4, 2024</p>
+                                </div>
+                                <p> Development of a cutting-edge NFT Staking DApp, allowing users to stake NFTs for rewards within a tiered reward system, 
+                                    encouraging long-term staking and active participation
+</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
 
 
 
+                <div className="col-md-6">
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
+                        <div className="roadmap__item2-inner">
+                            <div className="roadmap__item2-content">
+                                <div className="roadmap__item2-header">
+                                    <h4>Strategic Global Market Expansion</h4>
+                                    <p>	Q4, 2024</p>
+                                </div>
+                                <p> Target international markets, establishing partnerships
+with exchanges, marketplaces, and influencers that will take the $MART brand global.
 
+</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div className="col-md-6 offset-md-6">
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
+                        <div className="roadmap__item2-inner">
+                            <div className="roadmap__item2-content">
+                                <div className="roadmap__item2-header">
+                                    <h4>Cross-Platform Compatibility</h4>
+                                    <p>Q4, 2024</p>
+                                </div>
+                                <p> Build a seamless user experience to ensure our NFT ecosystem achieves cross-platform compatibility,
+                                     ensuring every user enjoys a responsive and interactive journey on desktop and mobile.
+</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div className="col-md-6">
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
+                        <div className="roadmap__item2-inner">
+                            <div className="roadmap__item2-content">
+                                <div className="roadmap__item2-header">
+                                    <h4>Continuous Community Engagement</h4>
+                                    <p>	Q4, 2024</p>
+                                </div>
+                                <p> Foster an active and engaged community through regular updates, AMAs (Ask Me Anything), 
+                                    and community-driven events. Encourage user-generated content, 
+                                    such as fan art and collectible suggestions, to enhance community involvement.
+</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div className="col-md-6 offset-md-6">
+                    <div className="roadmap__item2 ms-auto me-md-4" data-aos="fade-right">
+                        <div className="roadmap__item2-inner">
+                            <div className="roadmap__item2-content">
+                                <div className="roadmap__item2-header">
+                                    <h4>Onboard Artists and Creators</h4>
+                                    <p>Q4, 2024</p>
+                                </div>
+                                <p> Facilitate the onboarding of talented artists and creators to the platform.
+                                    Provide resources and support to assist them in creating compelling and marketable NFT collections.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
 
 
             </div>

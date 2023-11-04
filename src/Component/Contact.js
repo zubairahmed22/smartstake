@@ -1,36 +1,35 @@
 import React,{useState} from 'react'
 
 const Contact = () => {
-    // const [name, setName] = useState('');
-    // const [email, setEmail] = useState('');
-    // const [message, setMessage] = useState('');
-    // const URL = 'https://script.google.com/macros/s/AKfycbzFDkudSCf3cMtcFpYtqqIgHpwpdBF8Iu6jN3lfBq44A4oftMU2WwdRsPH41G6gnjB5/exec'
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const URL = 'https://script.google.com/macros/s/AKfycbzFDkudSCf3cMtcFpYtqqIgHpwpdBF8Iu6jN3lfBq44A4oftMU2WwdRsPH41G6gnjB5/exec'
 
-    
-    // const handleSubmit = async (e) => {
-    //     e.preventDefault();
-    //       const data = new URLSearchParams({
-    //         name,
-    //         email,
-    //         message,
-    //       })
-        // Make a POST request to your Google Script URL
-    //     const response = await fetch(URL, 
-    //         {
-    //             redirect: "follow",
-    //             method: "POST",
-    //             body: JSON.stringify(data),
-    //             headers: {
-    //               "Content-Type": "text/plain;charset=utf-8",
-    //             },
-    //           });
-    
-    //     if (response.status === 200) {
-    //       alert('Message sent successfully');
-    //     } else {
-    //       alert('Failed to send the message');
-    //     }
-    //   };
+    console.log("check the result",name, email, message)
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+          const data = new URLSearchParams({
+            name,
+            email,
+            message,
+          })
+     
+        const response = await fetch(URL, {
+            redirect: "follow",
+            method: "POST",
+            body: JSON.stringify(data),
+            headers: {
+              "Content-Type": "text/plain;charset=utf-8",
+            },
+          })
+         console.log(response)
+        if (response.status === 200) {
+          alert('Message sent successfully');
+        } else {
+          alert('Failed to send the message');
+        }
+      };
   return (
     <section className="contact padding-top padding-bottom">
         <div className="container">
@@ -42,25 +41,29 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            
             <div className="contact__wrapper">
                 <div className="row justify-content-center">
                     <div className="col-lg-10">
-                        <form className="form">
+                        <form className="form" onSubmit={handleSubmit}>
                             <div className="row">
                                 <div className="col-md-6">
                                     <input type="text" placeholder="Your Name*" required
-                                    
+                                    value={name}
+                                    onChange={(e) => setName(e.target.value)}
                                     />
                                 </div>
                                 <div className="col-md-6">
                                     <input type="email" placeholder="Your Email*" required
-                                    
+                                    value={email}
+                                     onChange={(e) => setEmail(e.target.value)}
                                     />
                                 </div>
                                 
                                 <div className="col-12">
                                     <textarea placeholder="Your Message"
-                                   
+                                    value={message}
+                                    onChange={(e) => setMessage(e.target.value)}
                                     ></textarea>
                                 </div>
                             </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Team = () => {
   return (
@@ -20,8 +21,11 @@ const Team = () => {
                             <img src="assets/images/team/person.png" alt="Team Member Image"/>
                         </div>
                         <div className="team__content">
-                            <h4><a href="team-member.html">Ibrahim Sow</a></h4>
-                            <p>OWNER</p>
+                            
+                            <h4><a href="team-member.html">Who am I?</a></h4>
+                            
+                            
+                           <p className='bioButton'> <Link to={"/bio"} className='bioButton'>Bio </Link></p>
                             
                         </div>
                     </div>
