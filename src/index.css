@@ -480,6 +480,8 @@ body {
   .pdfDiv{
     position: relative;
     display: flex;
+
+
     flex-direction: column;
     justify-content: space-between;
     
@@ -755,7 +757,7 @@ cursor: pointer;
  .secondInputDiv > button {
   position: absolute;
   right: 0;
-  margin-right: 30px;
+  margin-right: 20px;
   border: none;
   margin-top: 10px;
   padding:  5px 15px;
@@ -938,6 +940,124 @@ cursor: pointer;
   transition: .9s;
  }
  
+ @media (max-width: 991px){
+  .menu.active {
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+    background-color: #16579e;
+    color: white;
+}
+.pdfDiv{
+  position: relative;
+  display: flex;
+
+
+  flex-direction: column;
+  justify-content: space-between;
+  
+  width: 100%;
+  height: auto;
+  background-color: lightblue;
+  border-radius: 0px 70px 0px 0px;
+  background-color: #16579e;
+}
+
+.whitePaper{
+  display: flex;
+  flex-direction: column;
+  width: 100% !important;
+  height: 200px !important;
+  background-color: #0f4e92!important;
+ 
+  
+  
+}
+.auditClass{
+  display: flex;
+  flex-direction: column;
+ margin-top: 20px;
+ background-color: #0f4e92 !important;
+ border-radius: 0px 70px 0px 0px !important;
+ height: 200px !important;
+  }
+
+.menu li a:hover {
+  background: rgb(14 72 133);
+  color: white;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.leftmainDiv{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.swap{
+  
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 20px;
+    background-color: #0c3c7c;
+    align-items: center;
+
+}
+.menu > li > a {
+  font-size: 1.10rem;
+  color: #feffff;
+  font-weight: 600;
+  padding: 15px 10px;
+  text-transform: uppercase;
+}
+
+.menu > li > a:hover {
+  font-size: 1.10rem;
+  
+  font-weight: 600;
+  padding: 15px 10px;
+  text-transform: uppercase;
+}
+
+.BNB_logo {
+  position: absolute;
+  left: 0;
+  width: 25px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.secondInputDiv > input {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 60px;
+  width: 95%;
+}
+.inputDIV {
+  display: flex;
+  flex-direction: column;
+  background-color: #0c3c7c;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.leftDIV{
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+ }
+ 
  .Bridge{
   width: 200px;
   border: none;
@@ -1118,15 +1238,26 @@ background-color: #0f4e92;
     align-items: center;
     width: 100%;
    }
-    
+  
    .BNB_logo{
     position: absolute;
     left: 0;
-    width: 10%;
-    margin-top: 7px;
-    margin-left: 10px;
+    width: 8%;
+    margin-top: 8px;
+    margin-left: 20px;
    }
-
+  
+   .secondInputDiv > button {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    border: none;
+    margin-top: 10px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: white;
+    color: #0c3c7c;
+}
    .swap{
     border-radius: 20px;
      display: flex;
