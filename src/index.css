@@ -24,6 +24,17 @@ p.firstHeading {
 .bioButton{
 
 }
+.roadmap__item2-content {
+  padding: 10px 20px;
+}
+.roadmap__item2-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.roadmap__item2-header > h3 {
+  color: #145096;
+}
 p.secondPara {
     margin-top: 0;
     margin-bottom: 1rem;

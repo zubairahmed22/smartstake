@@ -23,7 +23,7 @@ My cryptocurrency adventure began six years ago.
                        
                        I stand before you not with a name, but with a vision, 
                             choosing to remain anonymous not out of deceit but out of strategic caution. In the volatile crypto space, 
-                            rematurely revealing my identity could distract from our objectives.
+                            prematurely revealing my identity could distract from our objectives.
                              Smart Staking is not about a single individual. 
                              It’s about a community thriving as one  <br/>
 
