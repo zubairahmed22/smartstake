@@ -249,15 +249,7 @@ the unlocking of exclusive rewards.</p>
                             </div>
 
 
-                            <div className="roadmap__item2-content">
-                                <div className="roadmap__item2-header">
-                                    <h4>Integrate Tokens with NFT Rewards</h4>
-                                   
-                                </div>
-                                <p> $MART tokens will be integrated with NFTs to enable
-the unlocking of exclusive rewards.</p>
-
-                            </div>
+                       
 
                         </div>
                     </div>
