@@ -1,9 +1,18 @@
+import { useAccount, useConnect, useEnsName } from 'wagmi'
+import { InjectedConnector } from 'wagmi/connectors/injected'
 import { Link, NavLink } from "react-router-dom"
-import { useState } from "react"
+
+import React, { useState } from 'react';
+
 
 const HeaderComponent = () => {
     const [isOpen, setIsOpen] = useState(false)
-    
+    const { address, isConnected } = useAccount()
+    const { data: ensName } = useEnsName({ address })
+    const { connect } = useConnect({
+        connector: new InjectedConnector(),
+      })
+  
     return (
       <header className="header-section">
           <div className="container">
@@ -47,7 +56,8 @@ const HeaderComponent = () => {
                                 
                               </ul>
                               <a className="wallet-btn" href="#" data-bs-toggle="modal" data-bs-target="#wallet-option">
-                                  <span>Connect
+                              
+                                  <span onClick={() => connect()}>Connect
                                   </span> <i className="fa-solid fa-wallet"></i></a>
   
                                  

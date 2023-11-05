@@ -33,7 +33,7 @@ My cryptocurrency adventure began six years ago.
                                  trust-worthy, and thriving Smart Staking ecosystem.  <br/>
                                
 
-                               IThis is who I am. An architect of the digital future, a leader in the shadows, poised to emerge when the foundation of our shared success is unshakeable. 
+                               This is who I am. An architect of the digital future, a leader in the shadows, poised to emerge when the foundation of our shared success is unshakeable. 
                                 For now, let our results speak—let the strength of Smart Staking be the measure of my commitment to building a better and more rewarding financial future.
                                </p>
                        
