@@ -55,9 +55,9 @@ const HeaderComponent = () => {
                                   <li> <Link to={'Contact'}> Contact</Link></li>
                                 
                               </ul>
-                              <a className="wallet-btn" href="#" data-bs-toggle="modal" data-bs-target="#wallet-option">
+                              <a className="wallet-btn" onClick={() => connect()} data-bs-toggle="modal" data-bs-target="#wallet-option">
                               
-                                  <span onClick={() => connect()}>Connect
+                                  <span >Connect
                                   </span> <i className="fa-solid fa-wallet"></i></a>
   
                                  
