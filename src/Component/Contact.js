@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 
+
 const Contact = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -15,15 +16,15 @@ const Contact = () => {
             message,
           }
             console.log("data check",data)
-        const response = await fetch(URL, {
-            redirect: "follow",
-            method: "POST",
-            body: JSON.stringify(data),
-            headers: {
-              "Content-Type": "text/plain",
-            },
-          })
-         console.log(response)
+            const response = await fetch(URL, {
+                redirect: "follow",
+      method: "POST",
+      body: JSON.stringify(data),
+      headers: {
+        "Content-Type": "text/plain;charset=utf-8",
+      },
+              });
+         console.log(response.json)
         if (response.status === 200) {
           alert('Message sent successfully');
         } else {

@@ -1,4 +1,4 @@
-import { useAccount, useConnect, useEnsName } from 'wagmi'
+import { useConnect } from 'wagmi'
 import { InjectedConnector } from 'wagmi/connectors/injected'
 import { Link, NavLink } from "react-router-dom"
 
@@ -7,8 +7,8 @@ import React, { useState } from 'react';
 
 const HeaderComponent = () => {
     const [isOpen, setIsOpen] = useState(false)
-    const { address, isConnected } = useAccount()
-    const { data: ensName } = useEnsName({ address })
+    
+   
     const { connect } = useConnect({
         connector: new InjectedConnector(),
       })
