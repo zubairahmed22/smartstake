@@ -9,18 +9,18 @@ const Contact = () => {
     console.log("check the result",name, email, message)
     const handleSubmit = async (e) => {
         e.preventDefault();
-          const data = new URLSearchParams({
+          const data = {
             name,
             email,
             message,
-          })
-     
+          }
+            console.log("data check",data)
         const response = await fetch(URL, {
             redirect: "follow",
             method: "POST",
             body: JSON.stringify(data),
             headers: {
-              "Content-Type": "text/plain;charset=utf-8",
+              "Content-Type": "text/plain",
             },
           })
          console.log(response)
