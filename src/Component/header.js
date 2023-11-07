@@ -1,12 +1,14 @@
 import { useWeb3Modal } from '@web3modal/wagmi/react'
 import { Link, NavLink } from "react-router-dom"
+import { useAccount } from 'wagmi'
+
 
 import React, { useState } from 'react';
 
 
 const HeaderComponent = () => {
     const [isOpen, setIsOpen] = useState(false)
-    
+    const { address, isConnecting, isDisconnected } = useAccount()
     const { open } = useWeb3Modal()
   
     return (
@@ -53,7 +55,7 @@ const HeaderComponent = () => {
                               </ul>
                               <a className="wallet-btn" onClick={() => open()} data-bs-toggle="modal" data-bs-target="#wallet-option">
                               
-                                  <span >Connect
+                                  <span >{isDisconnected? "Connect" :`${address?.slice(0,4)}...${address?.slice(-6)}`}
                                   </span> <i className="fa-solid fa-wallet"></i></a>
   
                                  

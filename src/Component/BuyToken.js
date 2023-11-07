@@ -1,7 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useAccount } from 'wagmi'
+import { useWeb3Modal } from '@web3modal/wagmi/react'
+
 
 const BuyToken = () => {
+  const { address, isConnecting, isDisconnected } = useAccount()
+  const { open } = useWeb3Modal()
   return (
     <div className="stacking padding-top padding-bottom">
     <div className="container">
@@ -26,7 +31,7 @@ const BuyToken = () => {
               <img src='\assets\images\shape\logoicon.svg' className='downloadImage'/>
               <h6>$MART SWAP</h6>
             </div>
-            <button>CONNECT</button>
+            <button onClick={() => open()}>{isDisconnected?"CONNECT":`${address.slice(0,4)}...${address.slice(-5)}`}</button>
           </div>
          <div className='inputDIV'>
            <div className='availableHeading'><p>available:</p></div>
@@ -51,7 +56,7 @@ const BuyToken = () => {
            <div className='secondInputDiv'>
            <input className='inputField'/>
            <img src='assets\images\shape\logoicon.svg' className='BNB_logo'/>
-          <button> <Link to={'/Staking'} className='stakingButton'>STAKING </Link></button>
+          <button> <Link to={'/Staking'} className='stakingButton'>$MART </Link></button>
            </div>
            <div className='Btn_collection1'>
             <button>Approve</button>

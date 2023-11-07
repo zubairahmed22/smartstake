@@ -13,6 +13,7 @@ import Bio from "./bio"
 
 import { createWeb3Modal, defaultWagmiConfig } from '@web3modal/wagmi/react'
 
+
 import { WagmiConfig } from 'wagmi'
 import { arbitrum, mainnet } from 'wagmi/chains'
 
@@ -35,7 +36,9 @@ const metadata = {
 }
   
 const chains = [mainnet, arbitrum]
-const wagmiConfig = defaultWagmiConfig({ chains, projectId, metadata })
+const wagmiConfig = defaultWagmiConfig({ chains, projectId, metadata
+ 
+})
 
 // 3. Create modal
 createWeb3Modal({ wagmiConfig, projectId, chains })
