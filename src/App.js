@@ -36,7 +36,7 @@ const metadata = {
 }
   
 const chains = [mainnet, arbitrum]
-const wagmiConfig = defaultWagmiConfig({ chains, projectId, metadata
+const wagmiConfig = defaultWagmiConfig({ chains, projectId, metadata,autoConnect: true,
  
 })
 

@@ -31,7 +31,7 @@ const BuyToken = () => {
               <img src='\assets\images\shape\logoicon.svg' className='downloadImage'/>
               <h6>$MART SWAP</h6>
             </div>
-            <button onClick={() => open()}>{isDisconnected?"CONNECT":`${address.slice(0,4)}...${address.slice(-5)}`}</button>
+            <button onClick={() => open()}>{isDisconnected?"CONNECT":`${address?.slice(0,4)}...${address?.slice(-5)}`}</button>
           </div>
          <div className='inputDIV'>
            <div className='availableHeading'><p>available:</p></div>

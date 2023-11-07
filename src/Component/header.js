@@ -10,6 +10,8 @@ const HeaderComponent = () => {
     const [isOpen, setIsOpen] = useState(false)
     const { address, isConnecting, isDisconnected } = useAccount()
     const { open } = useWeb3Modal()
+    const firtDegit =  address?.slice(0,4)
+    const lastDegit =   address?.slice(-6)
   
     return (
       <header className="header-section">
@@ -55,7 +57,7 @@ const HeaderComponent = () => {
                               </ul>
                               <a className="wallet-btn" onClick={() => open()} data-bs-toggle="modal" data-bs-target="#wallet-option">
                               
-                                  <span >{isDisconnected? "Connect" :`${address?.slice(0,4)}...${address?.slice(-6)}`}
+                                  <span >{isDisconnected? "Connect" :`${firtDegit}...${lastDegit}`}
                                   </span> <i className="fa-solid fa-wallet"></i></a>
   
                                  
