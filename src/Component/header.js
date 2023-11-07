@@ -1,5 +1,4 @@
-import { useConnect } from 'wagmi'
-import { InjectedConnector } from 'wagmi/connectors/injected'
+import { useWeb3Modal } from '@web3modal/wagmi/react'
 import { Link, NavLink } from "react-router-dom"
 
 import React, { useState } from 'react';
@@ -8,10 +7,7 @@ import React, { useState } from 'react';
 const HeaderComponent = () => {
     const [isOpen, setIsOpen] = useState(false)
     
-   
-    const { connect } = useConnect({
-        connector: new InjectedConnector(),
-      })
+    const { open } = useWeb3Modal()
   
     return (
       <header className="header-section">
@@ -55,7 +51,7 @@ const HeaderComponent = () => {
                                   <li> <Link to={'Contact'}> Contact</Link></li>
                                 
                               </ul>
-                              <a className="wallet-btn" onClick={() => connect()} data-bs-toggle="modal" data-bs-target="#wallet-option">
+                              <a className="wallet-btn" onClick={() => open()} data-bs-toggle="modal" data-bs-target="#wallet-option">
                               
                                   <span >Connect
                                   </span> <i className="fa-solid fa-wallet"></i></a>

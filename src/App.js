@@ -11,9 +11,12 @@ import BuyToken from "./Component/BuyToken";
 import Bio from "./bio"
 
 
+import { createWeb3Modal, defaultWagmiConfig } from '@web3modal/wagmi/react'
 
-import { WagmiConfig, createConfig, configureChains, mainnet } from 'wagmi'
-import { publicProvider } from 'wagmi/providers/public'
+import { WagmiConfig } from 'wagmi'
+import { arbitrum, mainnet } from 'wagmi/chains'
+
+// 1. Get projectId
 
 
 
@@ -21,26 +24,30 @@ import { publicProvider } from 'wagmi/providers/public'
 
 function App() {
 
-  
-  
-  const { chains, publicClient, webSocketPublicClient } = configureChains(
-    [mainnet],
-    [publicProvider()],
-  )
-   
-  const config = createConfig({
-    autoConnect: true,
-    publicClient,
-    webSocketPublicClient,
-  })
+  const projectId = '1242d9c1f7a1e32cc5fb0da6c6877f84'
 
+// 2. Create wagmiConfig
+const metadata = {
+  name: 'Web3Modal',
+  description: 'Web3Modal Example',
+  url: 'https://web3modal.com',
+  icons: ['https://avatars.githubusercontent.com/u/37784886']
+}
+  
+const chains = [mainnet, arbitrum]
+const wagmiConfig = defaultWagmiConfig({ chains, projectId, metadata })
+
+// 3. Create modal
+createWeb3Modal({ wagmiConfig, projectId, chains })
+   
+ 
   
   
   
 
 
   return (
-    <WagmiConfig config={config}>
+    <WagmiConfig config={wagmiConfig}>
     <div className="App">
        {/* <div className="preloader">
         <div className="preloader__inner">
