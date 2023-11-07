@@ -51,7 +51,7 @@ const BuyToken = () => {
            <div className='secondInputDiv'>
            <input className='inputField'/>
            <img src='assets\images\shape\logoicon.svg' className='BNB_logo'/>
-           <button>STAKING</button>
+          <button> <Link to={'/Staking'} className='stakingButton'>STAKING </Link></button>
            </div>
            <div className='Btn_collection1'>
             <button>Approve</button>

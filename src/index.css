@@ -9,6 +9,17 @@ body {
 section {
   background-color: #16589f;;
 }
+
+.stakingButton{
+  color: #16589f;
+}
+.stakingButton:hover{
+  color: #16589f;
+}
+
+h5.postCategory {
+  color: #16579e;
+}
 h2.mb-4 {
   text-align: center;
   margin-top: 30px;
@@ -859,6 +870,7 @@ cursor: pointer;
     padding: 5px 12px;
     background-color: white;
     color: #145096; 
+    cursor: none;
  }
  .Btn_collection > button{
   border: none;
@@ -866,7 +878,7 @@ cursor: pointer;
     padding: 5px 12px;
     background-color: white;
     color: #145096; 
-
+    cursor: none;
   
   
  }
@@ -1067,6 +1079,8 @@ cursor: pointer;
   margin-top: 30px;
   justify-content: space-between;
 }
+
+
 .swap{
   
     border-radius: 20px;

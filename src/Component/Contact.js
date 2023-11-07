@@ -15,7 +15,7 @@ const Contact = () => {
             email,
             message,
           }
-            console.log("data check",data)
+            
             const response = await fetch(URL, {
                 redirect: "follow",
       method: "POST",
@@ -27,6 +27,9 @@ const Contact = () => {
          console.log(response.json)
         if (response.status === 200) {
           alert('Message sent successfully');
+          setEmail('')
+          setName('')
+          setMessage('')
         } else {
           alert('Failed to send the message');
         }

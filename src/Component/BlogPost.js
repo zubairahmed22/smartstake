@@ -1,17 +1,43 @@
-import React from 'react'
-import "./BannerSection"
+import React,{useState} from 'react'
+
 const BlogPost = () => {
+    const [name, setName] = useState("")
+    const [email, setEmail] = useState("")
+    const [message, setMessage] = useState("")
+
+    
+    const URL = 'https://script.google.com/macros/s/AKfycbzFDkudSCf3cMtcFpYtqqIgHpwpdBF8Iu6jN3lfBq44A4oftMU2WwdRsPH41G6gnjB5/exec'
+
+    console.log("check the result",name, email, message)
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+          const data = {
+            name,
+            email,
+            message,
+          }
+            console.log("data check",data)
+            const response = await fetch(URL, {
+                redirect: "follow",
+      method: "POST",
+      body: JSON.stringify(data),
+      headers: {
+        "Content-Type": "text/plain;charset=utf-8",
+      },
+              });
+         console.log(response.json)
+        if (response.status === 200) {
+          alert('Message sent successfully');
+          setName('')
+          setEmail('')
+          setMessage('')
+        } else {
+          alert('Failed to send the message');
+        }
+    }
+
   return (
     
-//    {/* <section classNameName="page-header bg--cover" style={{backgroundImage: 'url(assets/images/header/bg.jpg)'}}>
-//     <div classNameName="container">
-//         <div classNameName="page-header__content text-center">
-//             <h2 classNameName="text-capitalize">Blog Details</h2>
-            
-//         </div>
-//     </div>
-   
-// </section> */}
 
 <div className="blog padding-top padding-bottom">
         <div className="container">
@@ -63,10 +89,18 @@ finance's stability with crypto's innovation.</p>
                             <div id="respond" className="comment-respond">
                                 <h4 className="h7">Leave a Comment</h4>
                                 <div className="add-comment">
-                                    <form action="#" method="post" id="commentform" className="comment-form">
-                                        <input name="name" type="text" value="" placeholder="Name*"/>
-                                        <input name="email" type="text" value="" placeholder="Email*"/>
+                                    <form onSubmit={handleSubmit} id="commentform" className="comment-form">
+                                        <input name="name" type="text"  placeholder="Name*"
+                                        value={name}
+                                        onChange={(e) => setName(e.target.value)}
+                                        />
+                                        <input name="email" type="text"  placeholder="Email*"
+                                        value={email}
+                                        onChange={(e) => setEmail(e.target.value)}
+                                        />
                                         <textarea id="comment-reply" name="comment" rows="7"
+                                         value={message}
+                                         onChange={(e) => setMessage(e.target.value)}
                                             placeholder="Type Here Your Comment*"></textarea>
                                         <button type="submit" className="default-btn"><span>Send Comment</span></button>
                                     </form>
@@ -77,22 +111,10 @@ finance's stability with crypto's innovation.</p>
                     <div className="col-lg-4">
                         <aside className="ps-lg-4">
 
-                            <div className="widget widget-search">
-                                <div className="widget__header">
-                                    <h5>Search keywords</h5>
-                                </div>
-                                <div className="widget-search-inner">
-                                    <div className="input-group">
-                                        <input type="text" className="form-control" placeholder="Search here"
-                                            aria-label="Search bar"/>
-                                        <button className="search-icon"><i
-                                                className="fa-solid fa-magnifying-glass"></i></button>
-                                    </div>
-                                </div>
-                            </div>
+                        
                             <div className="widget widget-category">
                                 <div className="widget__header">
-                                    <h5>Post Categories</h5>
+                                    <h5 className='postCategory'>Post Categories</h5>
                                 </div>
                                 <ul className="lab-ul widget-wrapper list-bg-none">
                                    
