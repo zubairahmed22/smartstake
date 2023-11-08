@@ -8,6 +8,7 @@ import React, { useState } from 'react';
 
 const HeaderComponent = () => {
     const [isOpen, setIsOpen] = useState(false)
+    const [isDisplay, isSetDisplay] = useState(false)
     const { address, isConnecting, isDisconnected } = useAccount()
     const { open } = useWeb3Modal()
     const firtDegit =  address?.slice(0,4)
@@ -30,29 +31,54 @@ const HeaderComponent = () => {
                             <Link to={'/'}><img src="/assets/images/logo/smartLogo.png" alt="logo" /></Link>
                           </div>
                           <div className="menu-area">
-                              <ul className={isOpen?"menu active" : "menu"}onClick={() => setIsOpen(false)}>
-                                  <li>
+                              <ul className={isOpen?"menu active" : "menu"}>
+                                  <li onClick={() => setIsOpen(false)}>
                                      <NavLink to={'/'}>Home</NavLink>
                                       
                                   </li>
                                   
+                                  
+                                  <li className={isDisplay?'menu-item-has-children open': "menu-item-has-children"}
+                                  onClick={() => isSetDisplay(!isDisplay)}
+                                   >
+                                  <Link to={'/Staking'} >Staking</Link>  
+                                 
+                                  <ul class={ isDisplay?`submenu style={{display:"block"}}  `:`submenu`}>
                                   <li>
-                                      <Link to={'Staking'}>Staking</Link>
-                                     
+                                  <Link to={'/WhatIsStaking'}>What is Staking</Link>    
+                                      
                                   </li>
-                                  <li>
+                                    </ul> 
+                                      
+                                  </li>
+                                  <li onClick={() => setIsOpen(false)}>
                                       <Link to={'BuyToken'}>Buy Now</Link>
                                      
                                   </li>
-                                  <li>
+                                  <li onClick={() => setIsOpen(false)}>
                                      <Link to={'Team'}> Team</Link>
                                       
                                   </li>
-                                  <li>
+                                  <li onClick={() => setIsOpen(false)}>
                                   <Link to={'BlogPost'}>Blog</Link>    
                                       
                                   </li>
-                                  <li> <Link to={'Contact'}> Contact</Link></li>
+                                 
+                                  <li className={isDisplay?'menu-item-has-children open': "menu-item-has-children"} onClick={() => isSetDisplay(!isDisplay)}>
+                                  <Link to={'/AboutUs'}>About Us</Link>  
+                                 
+                                  <ul class={ isDisplay?`submenu style={{display:"block"}}  `:` submenu style={{display: "none"}} `}  >
+                                  <li>
+                                  <Link to={'/ourStory'}>Our story</Link>    
+                                
+                                  </li>
+                                    </ul> 
+                                      
+                                  </li>
+                                  
+                                 
+
+                                  <li onClick={() => setIsOpen(false)}> <Link to={'Contact'}> Contact</Link></li>
                                 
                               </ul>
                               <a className="wallet-btn" onClick={() => open()} data-bs-toggle="modal" data-bs-target="#wallet-option">
