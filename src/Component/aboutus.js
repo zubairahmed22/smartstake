@@ -2,10 +2,7 @@ import React from 'react'
 
 const aboutus = () => {
   return (
-    <section>
-    <div className="container">
-        <div className="member__wrapper">
-            <div className="row g-5 align-items-center">
+    
                 
                 <div className="BioText">
                     <div className="member__content" >
@@ -27,10 +24,7 @@ const aboutus = () => {
                        
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    </section>
+           
   )
 }
 

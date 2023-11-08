@@ -2,10 +2,7 @@ import React from 'react'
 
 const whatStaking = () => {
   return (
-    <section>
-    <div className="container">
-        <div className="member__wrapper">
-            <div className="row g-5 align-items-center">
+  
                 
                 <div className="BioText">
                     <div className="member__content" >
@@ -24,10 +21,7 @@ const whatStaking = () => {
                        
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    </section>
+           
   )
 }
 

@@ -9,9 +9,8 @@ import Team from "./Component/Team";
 import Staking from "./Staking";
 import BuyToken from "./Component/BuyToken";
 import Bio from "./bio"
-import OurStory from "./ourStory"
-import AboutUs from "./Component/aboutus";
-import WhatIsStaking from "./whatStaking";
+import  KnowledgeBase  from "./knowledgeBase";
+
 
 
 import { createWeb3Modal, defaultWagmiConfig } from '@web3modal/wagmi/react'
@@ -77,9 +76,8 @@ createWeb3Modal({ wagmiConfig, projectId, chains })
         <Route path="bio" element={<Bio/>}/>
         
         <Route path="BuyToken" element={<BuyToken/>}/>
-        <Route path="ourStory" element={<OurStory/>}/>
-        <Route path="AboutUs" element={<AboutUs/>}/>
-        <Route path="WhatIsStaking" element={<WhatIsStaking/>}/>
+        <Route path="KnowledgeBase" element={<KnowledgeBase/>}/>
+        
         
       </Routes>
       <FooterSection/>

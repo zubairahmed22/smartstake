@@ -38,17 +38,12 @@ const HeaderComponent = () => {
                                   </li>
                                   
                                   
-                                  <li className={isDisplay?'menu-item-has-children open': "menu-item-has-children"}
-                                  onClick={() => isSetDisplay(!isDisplay)}
-                                   >
+                                  <li onClick={() => setIsOpen(false)}>
+                                 
+                                   
                                   <Link to={'/Staking'} >Staking</Link>  
                                  
-                                  <ul class={ isDisplay?`submenu style={{display:"block"}}  `:`submenu`}>
-                                  <li>
-                                  <Link to={'/WhatIsStaking'}>What is Staking</Link>    
-                                      
-                                  </li>
-                                    </ul> 
+                                 
                                       
                                   </li>
                                   <li onClick={() => setIsOpen(false)}>
@@ -64,15 +59,8 @@ const HeaderComponent = () => {
                                       
                                   </li>
                                  
-                                  <li className={isDisplay?'menu-item-has-children open': "menu-item-has-children"} onClick={() => isSetDisplay(!isDisplay)}>
-                                  <Link to={'/AboutUs'}>About Us</Link>  
-                                 
-                                  <ul class={ isDisplay?`submenu style={{display:"block"}}  `:` submenu style={{display: "none"}} `}  >
                                   <li>
-                                  <Link to={'/ourStory'}>Our story</Link>    
-                                
-                                  </li>
-                                    </ul> 
+                                  <Link to={'/KnowledgeBase'} onClick={() => setIsOpen(false)}>knowledge base</Link>  
                                       
                                   </li>
                                   

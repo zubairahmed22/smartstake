@@ -1,14 +1,23 @@
-import React from 'react'
+
+
+import AboutUS from "./aboutus"
+import WhatStaking from './whatStaking'
+
+
 
 const ourStory = () => {
+
+
+
+
   return (
     <section>
     <div className="container">
         <div className="member__wrapper">
             <div className="row g-5 align-items-center">
                 
-                <div className="BioText">
-                    <div className="member__content" >
+                <div className="BioText" >
+                    <div className="member__content">
                         <h2 className="mb-4">Our story</h2>
                         <p className='firstHeading'>
                         </p>
@@ -30,6 +39,8 @@ const ourStory = () => {
                                </p>
                        
                     </div>
+                    <AboutUS/>
+        <WhatStaking/>
                 </div>
             </div>
         </div>
