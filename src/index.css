@@ -253,6 +253,7 @@ section.project.padding-bottom.project--completed2 {
   border: 1px solid transparent;
   font-weight: 600;
 }
+
 .work__item:hover .work__item-content h4 {
   color: #373434;
 }
@@ -573,6 +574,7 @@ body {
 
 
 @media only screen and (max-width: 600px) {
+ 
  
   .mobile_menuLi {
     display: flex !important;
@@ -960,7 +962,7 @@ cursor: pointer;
  }
  .listDiv{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   
   border-bottom: 1px solid black;
