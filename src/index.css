@@ -120,6 +120,15 @@ code {
 .roadmap__item2-content {
   padding: 10px 20px;
   background-color: #145096 !important;
+  
+}
+.roadmap__item2.ms-md-4.aos-init.aos-animate {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.roadmap__item2.ms-auto.me-md-4.aos-init.aos-animate {
+    border: 1px solid white;
+    border-radius: 10px;
 }
 .banner {
   background-repeat: no-repeat;
