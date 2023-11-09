@@ -4,7 +4,7 @@ const aboutus = () => {
   return (
     
                 
-                <div className="BioText">
+                <div className="BioText1">
                     <div className="member__content" >
                         <h2 className="mb-4">About Smart Staking</h2>
                         <p className='firstHeading'>

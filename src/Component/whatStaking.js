@@ -4,7 +4,7 @@ const whatStaking = () => {
   return (
   
                 
-                <div className="BioText">
+                <div className="BioText2">
                     <div className="member__content" >
                         <h2 className="mb-4">What is staking?</h2>
                         <p className='firstHeading'>
