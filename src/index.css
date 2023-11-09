@@ -46,13 +46,17 @@ p.firstHeading {
 .roadmap__item2-content {
   padding: 10px 20px;
 }
+.roadmap__item2-content > p{
+  color: #e3e1e1;
+}
 .roadmap__item2-header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 .roadmap__item2-header > h3 {
-  color: #145096;
+  
+    color: #f5f9fc;
 }
 p.secondPara {
     margin-top: 0;
@@ -111,7 +115,11 @@ code {
 
 .roadmap__item2-header h4 {
  
-  color: #145096;
+   color: #f5f9fc;;
+}
+.roadmap__item2-content {
+  padding: 10px 20px;
+  background-color: #145096 !important;
 }
 .banner {
   background-repeat: no-repeat;
@@ -573,9 +581,14 @@ body {
   border-radius: 4px;
 }
 .roadmap__item2:hover .roadmap__item2-header h4, .roadmap__item2:hover .roadmap__item2-header p {
-  color: #185ca2;;
+  color: #f5f9fc;
 }
-
+.roadmap__item2-header p {
+  font-size: calc(1.275rem + 0.3vw);
+  font-weight: 700;
+  font-family: "Rajdhani", sans-serif;
+  color: #f5f9fc;
+}
 .pdfDiv{
   position: relative;
   display: flex;
