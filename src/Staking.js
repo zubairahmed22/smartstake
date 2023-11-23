@@ -17,7 +17,7 @@ const Staking = () => {
                         <div className="stacking__project-item">
                             <div className="stacking__project-itemInner">
                                 <h3>$ <span className="purecounter" data-purecounter-start="639499"
-                                        data-purecounter-end="63939379"><CountUp end={643.24} duration={5}/></span> </h3>
+                                        data-purecounter-end="63939379"><CountUp end={643.24} duration={3}/></span> </h3>
                                 <p>Total Value Locked</p>
                             </div>
                         </div>
