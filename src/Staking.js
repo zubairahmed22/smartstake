@@ -1,10 +1,12 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { Link } from 'react-router-dom'
 import { useAccount } from 'wagmi'
 import { useWeb3Modal } from '@web3modal/wagmi/react'
+import CountUp from 'react-countup';
 const Staking = () => {
   const { address, isConnecting, isDisconnected } = useAccount()
   const { open } = useWeb3Modal()
+  const [showTab, setShowtab] = useState(1)
   return (
     <div className="stacking padding-top padding-bottom">
     <div className="container">
@@ -15,7 +17,7 @@ const Staking = () => {
                         <div className="stacking__project-item">
                             <div className="stacking__project-itemInner">
                                 <h3>$ <span className="purecounter" data-purecounter-start="639499"
-                                        data-purecounter-end="63939379">6,368,143.24</span> </h3>
+                                        data-purecounter-end="63939379"><CountUp end={643.24} duration={5}/></span> </h3>
                                 <p>Total Value Locked</p>
                             </div>
                         </div>
@@ -24,7 +26,7 @@ const Staking = () => {
                         <div className="stacking__project-item">
                             <div className="stacking__project-itemInner">
                                 <h3><span className="purecounter" data-purecounter-start="0"
-                                        data-purecounter-end="136.99">136</span>.99 %</h3>
+                                        data-purecounter-end="136.99"><CountUp end={136} duration={3}/></span>.99%</h3>
                                 <p>Apy</p>
                             </div>
                         </div>
@@ -33,7 +35,7 @@ const Staking = () => {
                         <div className="stacking__project-item">
                             <div className="stacking__project-itemInner">
                                 <h3><span className="purecounter" data-purecounter-start="0"
-                                        data-purecounter-end="69899">69899</span> </h3>
+                                        data-purecounter-end="69899"><CountUp end={69899} duration={3}/></span> </h3>
                                 <p>Number of Stakers</p>
                             </div>
                         </div>
@@ -55,28 +57,32 @@ const Staking = () => {
                             <div className="stacking__period">
                                 <ul className="stacking__period-list nav nav-pills" id="stackingPeriod" role="tablist">
                                     <li className="nav-item" role="presentation">
-                                        <button className="nav-link active" id="period-tab1" data-bs-toggle="tab"
+                                        <button className={showTab === 1?"nav-link active": "nav-link"} id="period-tab1" data-bs-toggle="tab"
                                             data-bs-target="#period-tab1-pane" type="button" role="tab"
-                                            aria-controls="period-tab1-pane" aria-selected="true">7 Days</button>
+                                            onClick={() => setShowtab(1)}
+                                            aria-controls="period-tab1-pane" aria-selected="true">30 Days</button>
                                     </li>
                                     <li className="nav-item" role="presentation">
-                                        <button className="nav-link" id="period-tab2" data-bs-toggle="tab"
+                                        <button className={showTab === 2?"nav-link active": "nav-link"} id="period-tab2" data-bs-toggle="tab"
                                             data-bs-target="#period-tab2-pane" type="button" role="tab"
-                                            aria-controls="period-tab2-pane" aria-selected="false">14 Days</button>
+                                            onClick={() => setShowtab(2)}
+                                            aria-controls="period-tab2-pane" aria-selected="false">90 Days</button>
                                     </li>
                                     <li className="nav-item" role="presentation">
-                                        <button className="nav-link" id="period-tab3" data-bs-toggle="tab"
+                                        <button className={showTab === 3?"nav-link active": "nav-link"} id="period-tab3" data-bs-toggle="tab"
+                                        onClick={() => setShowtab(3)}
                                             data-bs-target="#period-tab3-pane" type="button" role="tab"
-                                            aria-controls="period-tab3-pane" aria-selected="false">30 Days</button>
+                                            aria-controls="period-tab3-pane" aria-selected="false">180 Days</button>
                                     </li>
                                     <li className="nav-item" role="presentation">
-                                        <button className="nav-link" id="period-tab4" data-bs-toggle="tab"
+                                        <button className={showTab === 4?"nav-link active": "nav-link"} id="period-tab4" data-bs-toggle="tab"
+                                            onClick={() => setShowtab(4)}
                                             data-bs-target="#period-tab4-pane" type="button" role="tab"
-                                            aria-controls="period-tab4-pane" aria-selected="false">60 Days</button>
+                                            aria-controls="period-tab4-pane" aria-selected="true">365 Days</button>
                                     </li>
                                 </ul>
                                 <div className="tab-content" id="myTabContent">
-                                    <div className="tab-pane fade show active" id="period-tab1-pane" role="tabpanel"
+                                    <div className={showTab === 1 ? "tab-pane fade show active": "tab-pane fade"} id="period-tab1-pane" role="tabpanel"
                                         aria-labelledby="period-tab1" tabindex="0">
                                         <div className="stacking__info">
                                             <div className="row align-items-center g-5">
@@ -84,7 +90,7 @@ const Staking = () => {
                                                     <ul className="stacking__info-list">
                                                         <li className="stacking__info-item">
                                                             <p className="stacking__info-name">Lock Period:
-                                                                <span className="stacking__info-value">7 Days</span>
+                                                                <span className="stacking__info-value">30 Days</span>
                                                             </p>
                                                         </li>
                                                         <li className="stacking__info-item">
@@ -94,7 +100,7 @@ const Staking = () => {
                                                         </li>
                                                         <li className="stacking__info-item">
                                                             <p className="stacking__info-name">Early unstake fee:
-                                                                <span className="stacking__info-value">23%</span>
+                                                                <span className="stacking__info-value">10%</span>
                                                             </p>
                                                         </li>
                                                         <li className="stacking__info-item">
@@ -113,7 +119,7 @@ const Staking = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="tab-pane fade" id="period-tab2-pane" role="tabpanel"
+                                    <div className={showTab === 2 ? "tab-pane fade show active": "tab-pane fade"} id="period-tab2-pane" role="tabpanel"
                                         aria-labelledby="period-tab2" tabindex="0">
                                         <div className="stacking__info">
                                             <div className="row align-items-center g-5">
@@ -121,7 +127,7 @@ const Staking = () => {
                                                     <ul className="stacking__info-list">
                                                         <li className="stacking__info-item">
                                                             <p className="stacking__info-name">Lock Period:
-                                                                <span className="stacking__info-value">14 Days</span>
+                                                                <span className="stacking__info-value">90 Days</span>
                                                             </p>
                                                         </li>
                                                         <li className="stacking__info-item">
@@ -131,7 +137,81 @@ const Staking = () => {
                                                         </li>
                                                         <li className="stacking__info-item">
                                                             <p className="stacking__info-name">Early unstake fee:
-                                                                <span className="stacking__info-value">23%</span>
+                                                                <span className="stacking__info-value">12%</span>
+                                                            </p>
+                                                        </li>
+                                                        <li className="stacking__info-item">
+                                                            <p className="stacking__info-name">Status:
+                                                                <span className="stacking__info-value">Unlocked</span>
+                                                            </p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div className="col-sm-4">
+                                                    <div className="stacking__apy">
+                                                        <p>APY Rate </p>
+                                                        <h3>12%</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className={showTab === 3 ?"tab-pane fade show active": "tab-pane fade"} id="period-tab3-pane" role="tabpanel"
+                                        aria-labelledby="period-tab3" tabindex="0">
+                                        <div className="stacking__info">
+                                            <div className="row align-items-center g-5">
+                                                <div className="col-sm-8">
+                                                    <ul className="stacking__info-list">
+                                                        <li className="stacking__info-item">
+                                                            <p className="stacking__info-name">Lock Period:
+                                                                <span className="stacking__info-value">180 Days</span>
+                                                            </p>
+                                                        </li>
+                                                        <li className="stacking__info-item">
+                                                            <p className="stacking__info-name">Re-locks on registration:
+                                                                <span className="stacking__info-value">Yes</span>
+                                                            </p>
+                                                        </li>
+                                                        <li className="stacking__info-item">
+                                                            <p className="stacking__info-name">Early unstake fee:
+                                                                <span className="stacking__info-value">15%</span>
+                                                            </p>
+                                                        </li>
+                                                        <li className="stacking__info-item">
+                                                            <p className="stacking__info-name">Status:
+                                                                <span className="stacking__info-value">Unlocked</span>
+                                                            </p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div className="col-sm-4">
+                                                    <div className="stacking__apy">
+                                                        <p>APY Rate </p>
+                                                        <h3>15%</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className={showTab === 4 ?"tab-pane fade show active": "tab-pane fade"} id="period-tab4-pane" role="tabpanel"
+                                        aria-labelledby="period-tab4" tabindex="0">
+                                        <div className="stacking__info">
+                                            <div className="row align-items-center g-5">
+                                                <div className="col-sm-8">
+                                                    <ul className="stacking__info-list">
+                                                        <li className="stacking__info-item">
+                                                            <p className="stacking__info-name">Lock Period:
+                                                                <span className="stacking__info-value">365 Days</span>
+                                                            </p>
+                                                        </li>
+                                                        <li className="stacking__info-item">
+                                                            <p className="stacking__info-name">Re-locks on registration:
+                                                                <span className="stacking__info-value">Yes</span>
+                                                            </p>
+                                                        </li>
+                                                        <li className="stacking__info-item">
+                                                            <p className="stacking__info-name">Early unstake fee:
+                                                                <span className="stacking__info-value">20%</span>
                                                             </p>
                                                         </li>
                                                         <li className="stacking__info-item">
@@ -145,80 +225,6 @@ const Staking = () => {
                                                     <div className="stacking__apy">
                                                         <p>APY Rate </p>
                                                         <h3>20%</h3>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="tab-pane fade" id="period-tab3-pane" role="tabpanel"
-                                        aria-labelledby="period-tab3" tabindex="0">
-                                        <div className="stacking__info">
-                                            <div className="row align-items-center g-5">
-                                                <div className="col-sm-8">
-                                                    <ul className="stacking__info-list">
-                                                        <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Lock Period:
-                                                                <span className="stacking__info-value">30 Days</span>
-                                                            </p>
-                                                        </li>
-                                                        <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Re-locks on registration:
-                                                                <span className="stacking__info-value">Yes</span>
-                                                            </p>
-                                                        </li>
-                                                        <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Early unstake fee:
-                                                                <span className="stacking__info-value">23%</span>
-                                                            </p>
-                                                        </li>
-                                                        <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Status:
-                                                                <span className="stacking__info-value">Unlocked</span>
-                                                            </p>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div className="col-sm-4">
-                                                    <div className="stacking__apy">
-                                                        <p>APY Rate </p>
-                                                        <h3>30%</h3>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="tab-pane fade" id="period-tab4-pane" role="tabpanel"
-                                        aria-labelledby="period-tab4" tabindex="0">
-                                        <div className="stacking__info">
-                                            <div className="row align-items-center g-5">
-                                                <div className="col-sm-8">
-                                                    <ul className="stacking__info-list">
-                                                        <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Lock Period:
-                                                                <span className="stacking__info-value">60 Days</span>
-                                                            </p>
-                                                        </li>
-                                                        <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Re-locks on registration:
-                                                                <span className="stacking__info-value">Yes</span>
-                                                            </p>
-                                                        </li>
-                                                        <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Early unstake fee:
-                                                                <span className="stacking__info-value">23%</span>
-                                                            </p>
-                                                        </li>
-                                                        <li className="stacking__info-item">
-                                                            <p className="stacking__info-name">Status:
-                                                                <span className="stacking__info-value">Unlocked</span>
-                                                            </p>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div className="col-sm-4">
-                                                    <div className="stacking__apy">
-                                                        <p>APY Rate </p>
-                                                        <h3>45%</h3>
                                                     </div>
                                                 </div>
                                             </div>
